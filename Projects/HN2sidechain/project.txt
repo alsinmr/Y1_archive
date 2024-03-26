@@ -1,0 +1,248 @@
+DATA
+Type:	iREDmode
+status:	no_opt
+short_file:	apo2.xtc
+title:	n12:IREDMODE:state1_0:apo2
+additional_info:	state1_0
+filename:	n12_IREDMODE_state1_0_apo2.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	no_opt
+short_file:	apo3.xtc
+title:	n12:IREDMODE:state1_1:apo3
+additional_info:	state1_1
+filename:	n12_IREDMODE_state1_1_apo3.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	no_opt
+short_file:	apo3.xtc
+title:	n12:IREDMODE:state1_2:apo3
+additional_info:	state1_2
+filename:	n12_IREDMODE_state1_2_apo3.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	no_opt
+short_file:	apo1.xtc
+title:	n12:IREDMODE:state2_0:apo1
+additional_info:	state2_0
+filename:	n12_IREDMODE_state2_0_apo1.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	no_opt
+short_file:	apo1.xtc
+title:	n12:IREDMODE:state2_1:apo1
+additional_info:	state2_1
+filename:	n12_IREDMODE_state2_1_apo1.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	no_opt
+short_file:	apo2.xtc
+title:	n12:IREDMODE:state2_2:apo2
+additional_info:	state2_2
+filename:	n12_IREDMODE_state2_2_apo2.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	no_opt
+short_file:	apo1.xtc
+title:	n12:IREDMODE:state3_0:apo1
+additional_info:	state3_0
+filename:	n12_IREDMODE_state3_0_apo1.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	proc
+short_file:	apo2.xtc
+title:	p6:IREDMODE:state1_0:apo2
+additional_info:	state1_0
+filename:	p6_IREDMODE_state1_0_apo2.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	proc
+short_file:	apo3.xtc
+title:	p6:IREDMODE:state1_1:apo3
+additional_info:	state1_1
+filename:	p6_IREDMODE_state1_1_apo3.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	proc
+short_file:	apo3.xtc
+title:	p6:IREDMODE:state1_2:apo3
+additional_info:	state1_2
+filename:	p6_IREDMODE_state1_2_apo3.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	proc
+short_file:	apo1.xtc
+title:	p6:IREDMODE:state2_0:apo1
+additional_info:	state2_0
+filename:	p6_IREDMODE_state2_0_apo1.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	proc
+short_file:	apo1.xtc
+title:	p6:IREDMODE:state2_1:apo1
+additional_info:	state2_1
+filename:	p6_IREDMODE_state2_1_apo1.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	proc
+short_file:	apo2.xtc
+title:	p6:IREDMODE:state2_2:apo2
+additional_info:	state2_2
+filename:	p6_IREDMODE_state2_2_apo2.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	proc
+short_file:	apo1.xtc
+title:	p6:IREDMODE:state3_0:apo1
+additional_info:	state3_0
+filename:	p6_IREDMODE_state3_0_apo1.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	opt_fit
+short_file:	apo2.xtc
+title:	o6:IREDMODE:state1_0:apo2
+additional_info:	state1_0
+filename:	o6_IREDMODE_state1_0_apo2.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	opt_fit
+short_file:	apo3.xtc
+title:	o6:IREDMODE:state1_1:apo3
+additional_info:	state1_1
+filename:	o6_IREDMODE_state1_1_apo3.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	opt_fit
+short_file:	apo3.xtc
+title:	o6:IREDMODE:state1_2:apo3
+additional_info:	state1_2
+filename:	o6_IREDMODE_state1_2_apo3.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	opt_fit
+short_file:	apo1.xtc
+title:	o6:IREDMODE:state2_0:apo1
+additional_info:	state2_0
+filename:	o6_IREDMODE_state2_0_apo1.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	opt_fit
+short_file:	apo1.xtc
+title:	o6:IREDMODE:state2_1:apo1
+additional_info:	state2_1
+filename:	o6_IREDMODE_state2_1_apo1.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	opt_fit
+short_file:	apo2.xtc
+title:	o6:IREDMODE:state2_2:apo2
+additional_info:	state2_2
+filename:	o6_IREDMODE_state2_2_apo2.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	opt_fit
+short_file:	apo1.xtc
+title:	o6:IREDMODE:state3_0:apo1
+additional_info:	state3_0
+filename:	o6_IREDMODE_state3_0_apo1.data
+END:DATA
+DATA
+Type:	iREDbond
+status:	opt_fit
+short_file:	apo2.xtc
+title:	o6:IREDBOND:state1_0:apo2
+additional_info:	state1_0
+filename:	o6_IREDBOND_state1_0_apo2.data
+END:DATA
+DATA
+Type:	iREDbond
+status:	opt_fit
+short_file:	apo3.xtc
+title:	o6:IREDBOND:state1_1:apo3
+additional_info:	state1_1
+filename:	o6_IREDBOND_state1_1_apo3.data
+END:DATA
+DATA
+Type:	iREDbond
+status:	opt_fit
+short_file:	apo3.xtc
+title:	o6:IREDBOND:state1_2:apo3
+additional_info:	state1_2
+filename:	o6_IREDBOND_state1_2_apo3.data
+END:DATA
+DATA
+Type:	iREDbond
+status:	opt_fit
+short_file:	apo1.xtc
+title:	o6:IREDBOND:state2_0:apo1
+additional_info:	state2_0
+filename:	o6_IREDBOND_state2_0_apo1.data
+END:DATA
+DATA
+Type:	iREDbond
+status:	opt_fit
+short_file:	apo1.xtc
+title:	o6:IREDBOND:state2_1:apo1
+additional_info:	state2_1
+filename:	o6_IREDBOND_state2_1_apo1.data
+END:DATA
+DATA
+Type:	iREDbond
+status:	opt_fit
+short_file:	apo2.xtc
+title:	o6:IREDBOND:state2_2:apo2
+additional_info:	state2_2
+filename:	o6_IREDBOND_state2_2_apo2.data
+END:DATA
+DATA
+Type:	iREDbond
+status:	opt_fit
+short_file:	apo1.xtc
+title:	o6:IREDBOND:state3_0:apo1
+additional_info:	state3_0
+filename:	o6_IREDBOND_state3_0_apo1.data
+END:DATA
+DATA
+Type:	iREDbond
+status:	opt_fit
+short_file:	apo2.xtc
+title:	o6:IREDBOND:AvOb_state1_0:apo2
+additional_info:	AvOb_state1_0
+filename:	o6_IREDBOND_AvOb_state1_0_apo2.data
+END:DATA
+DATA
+Type:	iREDbond
+status:	opt_fit
+short_file:	apo1.xtc
+title:	o6:IREDBOND:AvOb_state2_0:apo1
+additional_info:	AvOb_state2_0
+filename:	o6_IREDBOND_AvOb_state2_0_apo1.data
+END:DATA
+DATA
+Type:	iREDbond
+status:	opt_fit
+short_file:	apo1.xtc
+title:	o6:IREDBOND:AvOb_state3_0:apo1
+additional_info:	AvOb_state3_0
+filename:	o6_IREDBOND_AvOb_state3_0_apo1.data
+END:DATA

@@ -14,6 +14,7 @@ import numpy as np
 #Projects
 HN=pyDR.Project('Projects/basic')
 SC=pyDR.Project('Projects/sidechain')
+SCHN=pyDR.Project('Projects/HN2sidechain')
 
 #Data location in projects
 titles=['o6:MD:AvOb_state1_0:apo2','o6:MD:AvOb_state2_0:apo1','o6:MD:AvOb_state3_0:apo1']
@@ -25,6 +26,7 @@ nd=6
 
 subHN=sum(HN[title] for title in titles) #Subprojects
 subSC=sum(SC[title] for title in titles)
+
 
 #%% Tryptophan amplitudes vs. state
 
@@ -126,4 +128,66 @@ po.show_tc()
 subSC.savefig(filename.format('sidechain_all_motion'))
 
 #%% ChimeraX plots of the amplitudes of motion
-subHN.chimera()
+#Here, we pick a frame for each data object that is in the correct state
+for d in subHN:
+    d.select.molsys.make_pdb(ti=3300)  #Halfway through the 6600 frames
+for d in subSC:
+    d.select.molsys.make_pdb(ti=3300)  #Halfway through the 6600 frames
+
+for k in range(5):
+    subHN.chimera.close()
+    subHN.chimera(rho_index=k,scaling=2.5)
+    subHN.chimera.command_line(['turn z 90','turn x -90','view','sel :276'])
+    subHN.chimera.savefig(filename.format(f'detectors3D/rho{k}_HN'),
+                          options='transparentBackground True',overwrite=True)
+    
+for k in range(5):
+    subSC.chimera.close()
+    subSC.chimera(rho_index=k,scaling=1.75)
+    subSC.chimera.command_line(['turn z 90','turn x -90','view','sel :276'])
+    subSC.chimera.savefig(filename.format(f'detectors3D/rho{k}_sidechain'),
+                          options='transparentBackground True',overwrite=True)
+
+#%% Cross-correlation analysis
+
+subHN=sum(HN[title] for title in CCtitles) #Subprojects
+subSC=sum(SC[title] for title in CCtitles)
+subSCHN=sum(SCHN[title] for title in CCtitles)
+
+#Here, we pick a frame for each data object that is in the correct state
+for d in subHN:
+    d.select.molsys.make_pdb(ti=3300)  #Halfway through the 6600 frames
+for d in subSC:
+    d.select.molsys.make_pdb(ti=3300)  #Halfway through the 6600 frames
+for d in subSCHN:
+    d.select.molsys.make_pdb(ti=3300)  #Halfway through the 6600 frames
+
+
+i=np.argwhere([sel.resnames[0]=='TRP' for sel in subHN[0].select.sel1])[:,0] #Where are tryptophans
+for i0 in i:
+    for k in range(5):
+        subHN.chimera.close()
+        subHN.CCchimera(rho_index=k,indexCC=i0)
+        subHN.chimera.command_line(['turn z 90','turn x -90','view','sel :276'])
+        subHN.chimera.savefig(filename.format(f'CC3D/HN_W{subHN[0].label[i0]}_rhoCC{k}'),
+                              options='transparentBackground True',overwrite=True)
+        
+        
+i=np.argwhere([sel.resnames[0]=='TRP' for sel in subSC[0].select.sel1])[:,0] #Where are tryptophans
+for i0 in i:
+    for k in range(5):
+        subSC.chimera.close()
+        subSC.CCchimera(rho_index=k,indexCC=i0)
+        subSC.chimera.command_line(['turn z 90','turn x -90','view','sel :276'])
+        subSC.chimera.savefig(filename.format(f'CC3D/sidechain_W{subSC[0].label[i0]}_rhoCC{k}'),
+                              options='transparentBackground True',overwrite=True)
+        
+        
+for m in range(5):
+    for k in range(5):
+        subSCHN.chimera.close()
+        subSCHN.CCchimera(rho_index=k,indexCC=m)
+        subSCHN.chimera.command_line(['~show ~@N,C,CA,O,HN',f'show :{subSCHN[0].label[m].split("_")[0]}',
+                                    'turn z 90','turn x -90','view','sel :276'])
+        subSCHN.chimera.savefig(filename.format(f'CC3D/SCvHN_W{subSCHN[0].label[m]}_rhoCC{k}'),
+                              options='transparentBackground True',overwrite=True)
