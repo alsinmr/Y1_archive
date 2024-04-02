@@ -36,7 +36,7 @@ for run,start,state,count in zip(*chunks(length).values()):
     repr_sel=np.concatenate((rep,sel.repr_sel))
     sel.sel1,sel.sel2,sel.repr_sel=sel1,sel2,repr_sel
     
-    pyDR.md2iRED(sel).iRED2data()
+    pyDR.md2iRED(sel,rank=1).iRED2data()
     proj[-1].source.additional_info=f'state{state}_{count}'
     
     

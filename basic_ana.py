@@ -52,7 +52,7 @@ for run,start,state,count in zip(*chunks(length).values()):
     sel.traj.t0=start
     sel.traj.tf=start+length
     sel.select_bond(Nuc='N')
-    pyDR.md2iRED(sel).iRED2data()
+    pyDR.md2iRED(sel,rank=1).iRED2data()
     proj[-1].source.additional_info=f'state{state}_{count}'
     
     

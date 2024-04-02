@@ -239,30 +239,6 @@ additional_info:	state3_0
 filename:	o6_MD_state3_0_apo1.data
 END:DATA
 DATA
-Type:	MD
-status:	opt_fit
-short_file:	apo2.xtc
-title:	o6:MD:AvOb_state1_0:apo2
-additional_info:	AvOb_state1_0
-filename:	o6_MD_AvOb_state1_0_apo2.data
-END:DATA
-DATA
-Type:	MD
-status:	opt_fit
-short_file:	apo1.xtc
-title:	o6:MD:AvOb_state2_0:apo1
-additional_info:	AvOb_state2_0
-filename:	o6_MD_AvOb_state2_0_apo1.data
-END:DATA
-DATA
-Type:	MD
-status:	opt_fit
-short_file:	apo1.xtc
-title:	o6:MD:AvOb_state3_0:apo1
-additional_info:	AvOb_state3_0
-filename:	o6_MD_AvOb_state3_0_apo1.data
-END:DATA
-DATA
 Type:	iREDmode
 status:	no_opt
 short_file:	apo2.xtc
@@ -485,6 +461,30 @@ short_file:	apo1.xtc
 title:	o6:IREDBOND:state3_0:apo1
 additional_info:	state3_0
 filename:	o6_IREDBOND_state3_0_apo1.data
+END:DATA
+DATA
+Type:	MD
+status:	opt_fit
+short_file:	apo2.xtc
+title:	o6:MD:AvOb_state1_0:apo2
+additional_info:	AvOb_state1_0
+filename:	o6_MD_AvOb_state1_0_apo2.data
+END:DATA
+DATA
+Type:	MD
+status:	opt_fit
+short_file:	apo1.xtc
+title:	o6:MD:AvOb_state2_0:apo1
+additional_info:	AvOb_state2_0
+filename:	o6_MD_AvOb_state2_0_apo1.data
+END:DATA
+DATA
+Type:	MD
+status:	opt_fit
+short_file:	apo1.xtc
+title:	o6:MD:AvOb_state3_0:apo1
+additional_info:	AvOb_state3_0
+filename:	o6_MD_AvOb_state3_0_apo1.data
 END:DATA
 DATA
 Type:	iREDbond
