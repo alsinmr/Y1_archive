@@ -21,7 +21,7 @@ md_dir='/Volumes/My Book/Y1/apo'
 topo=os.path.join(md_dir,'prot.pdb')
 trajs=[os.path.join(md_dir,f'apo{k}_whole.xtc') for k in range(1,4)]
 
-step=10
+step=1
 sel=pyDR.MolSelect(topo,trajs,step=step)
 
 #%% Backbone

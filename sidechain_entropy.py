@@ -218,6 +218,9 @@ ax[0].set_ylabel('State')
 ax[1].plot(ECCgi.state[i1])
 ax[1].set_xlabel('Frame')
 ax[1].set_ylabel('State')
-ax[0].set_title('R33_v_R254')
-
+ax[1].text(0,10,f'CC={ECCgi.CC[i,i1]:.2f}')
+ax[0].set_title('R33 v R254')
+fig.tight_layout()
 fig.savefig(os.path.join(folder,'R33_v_R254_Gi_bound.png'))
+
+#%% What does the PCA look like?
