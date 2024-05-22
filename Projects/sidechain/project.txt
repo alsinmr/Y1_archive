@@ -510,3 +510,107 @@ title:	o6:IREDBOND:AvOb_state3_0:apo1
 additional_info:	AvOb_state3_0
 filename:	o6_IREDBOND_AvOb_state3_0_apo1.data
 END:DATA
+DATA
+Type:	iREDmode
+status:	no_opt
+short_file:	apo1.xtc
+title:	n12:IREDMODE:rk1:apo1
+additional_info:	rk1
+filename:	n12_IREDMODE_rk1_apo1.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	no_opt
+short_file:	apo2.xtc
+title:	n12:IREDMODE:rk1:apo2
+additional_info:	rk1
+filename:	n12_IREDMODE_rk1_apo2.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	no_opt
+short_file:	apo3.xtc
+title:	n12:IREDMODE:rk1:apo3
+additional_info:	rk1
+filename:	n12_IREDMODE_rk1_apo3.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	proc
+short_file:	apo1.xtc
+title:	p6:IREDMODE:rk1:apo1
+additional_info:	rk1
+filename:	p6_IREDMODE_rk1_apo1.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	proc
+short_file:	apo2.xtc
+title:	p6:IREDMODE:rk1:apo2
+additional_info:	rk1
+filename:	p6_IREDMODE_rk1_apo2.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	proc
+short_file:	apo3.xtc
+title:	p6:IREDMODE:rk1:apo3
+additional_info:	rk1
+filename:	p6_IREDMODE_rk1_apo3.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	opt_fit
+short_file:	apo1.xtc
+title:	o6:IREDMODE:rk1:apo1
+additional_info:	rk1
+filename:	o6_IREDMODE_rk1_apo1.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	opt_fit
+short_file:	apo2.xtc
+title:	o6:IREDMODE:rk1:apo2
+additional_info:	rk1
+filename:	o6_IREDMODE_rk1_apo2.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	opt_fit
+short_file:	apo3.xtc
+title:	o6:IREDMODE:rk1:apo3
+additional_info:	rk1
+filename:	o6_IREDMODE_rk1_apo3.data
+END:DATA
+DATA
+Type:	iREDbond
+status:	opt_fit
+short_file:	apo1.xtc
+title:	o6:IREDBOND:rk1:apo1
+additional_info:	rk1
+filename:	o6_IREDBOND_rk1_apo1.data
+END:DATA
+DATA
+Type:	iREDbond
+status:	opt_fit
+short_file:	apo2.xtc
+title:	o6:IREDBOND:rk1:apo2
+additional_info:	rk1
+filename:	o6_IREDBOND_rk1_apo2.data
+END:DATA
+DATA
+Type:	iREDbond
+status:	opt_fit
+short_file:	apo3.xtc
+title:	o6:IREDBOND:rk1:apo3
+additional_info:	rk1
+filename:	o6_IREDBOND_rk1_apo3.data
+END:DATA
+DATA
+Type:	iREDbond
+status:	opt_fit
+short_file:	apo1.xtc
+title:	o6:IREDBOND:AvOb_rk1:apo1
+additional_info:	AvOb_rk1
+filename:	o6_IREDBOND_AvOb_rk1_apo1.data
+END:DATA

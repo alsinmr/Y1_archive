@@ -65,15 +65,17 @@ fig.tight_layout()
 
 
 #%% Calculate CC for PC0
+n0,n1=0,1
 trp_CC={key:[] for key in trp}
 for key,value in trp.items():
     for pca in [BB,helix,loop]:
-        trp_CC[key].append((value.PCamp[0]*pca.PCamp[1]).mean()/np.sqrt(value.Lambda[0]*pca.Lambda[1]))
+        trp_CC[key].append((value.PCamp[n0]*pca.PCamp[n1]).mean()/np.sqrt(value.Lambda[n0]*pca.Lambda[n1]))
         
         
-#%% Backbone
+#%% Backbone with tryptophan (is the correlation?)
 BBtrp=PCA(copy(sel))
 
 BBtrp.select_atoms('name N C CA or resname TRP')
+BBtrp.select_bond(Nuc='sidechain',filter_str='resname TRP')
 BBtrp.load()
         

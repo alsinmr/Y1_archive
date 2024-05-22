@@ -60,6 +60,16 @@ proj['iREDmode'].fit().detect.r_auto(6)
 proj['iREDmode']['no_opt'].fit().opt2dist(rhoz_cleanup=True)
 proj['iREDmode']['opt_fit'].modes2bonds()
 
+#%% iRED for all trajectories
+for traj in trajs:
+    sel=pyDR.MolSelect(topo,traj,project=proj)
+    sel.traj.tf=15000
+    sel.select_bond(Nuc='sidechain')
+    pyDR.md2iRED(sel,rank=1).iRED2data()
+proj['raw']['iREDmode'].detect.r_no_opt(12)
+proj['raw']['iREDmode'].fit().detect.r_auto(6)
+(proj['no_opt']['iREDmode']-proj['.+state']).fit().opt2dist(rhoz_cleanup=True).modes2bond()
+    
 #%% Perform averaging
 from pyDR.misc.Averaging import avgDataObjs
 
@@ -68,5 +78,7 @@ for state in range(1,4):
     
 for state in range(1,4):
     avgDataObjs(proj[f'o6:IREDBOND:state{state}.'])
+    
+avgDataObjs(proj['opt_fit']['iREDbond']-proj['.+state'])
     
 proj.save()
