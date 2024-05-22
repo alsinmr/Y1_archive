@@ -24,18 +24,23 @@ md_dir='/Volumes/My Book/Y1/apo'
 topo=os.path.join(md_dir,'prot.pdb')
 trajs=[os.path.join(md_dir,f'apo{k+1}.xtc') for k in range(3)]
 
+commands=['turn x -90','turn y 180','view','sel :276']
+
+folder='/Users/albertsmith/Documents/DynamicsLaptop/Y1_GPCR/sidechain_ana' #Location for  figures
+
 select=pyDR.MolSelect(topo,trajs,project=proj)
 select.select_bond('15N')
 select.traj.step=1
 
 if os.path.exists('EntropyCC/CC_apo.data'):
     ECC=EntropyCC('EntropyCC/CC_apo.data')
+    ECC.project=proj
 else:
     ECC=EntropyCC(select)
     ECC.save('EntropyCC/CC_apo.data')
 
 
-folder='/Users/albertsmith/Documents/DynamicsLaptop/Y1_GPCR/sidechain_ana' #Location for  figures
+
 
 fig,ax=plt.subplots()
 ECC.plotCC(ax=ax)
@@ -43,7 +48,7 @@ fig.savefig(os.path.join(folder,'apo_totalCC.png'))
 
 
 
-commands=['turn x -90','turn y 180','view','sel :276']
+
 proj.chimera.close()
 ECC.chimera(norm=False)
 proj.chimera.command_line(commands)
@@ -86,12 +91,14 @@ for ii,ax0 in zip(i,ax[1:]):
         ax0.set_xlabel('Frame')
     if ax0.is_first_col():
         ax0.set_ylabel('State')
+fig.savefig(os.path.join(folder,'Y1_276_time_depend.png'))
 
 #%% Separate according to W276 state
 from States import chunks
 
 if os.path.exists('EntropyCC/CC_state1.data'):
     ECCc=[EntropyCC(f'EntropyCC/CC_state{k+1}.data') for k in range(3)]
+    for ECC0 in ECCc:ECC0.project=proj
 else:
     ECCs=[[] for _ in range(3)]
     select=[pyDR.MolSelect(topo,traj,project=proj).select_bond('15N') for traj in trajs]
@@ -134,6 +141,7 @@ for k,ECC0 in enumerate(ECCc):
 #%% NPY bound
 if os.path.exists('EntropyCC/CC_NPY.data'):
     ECCnpy=EntropyCC('EntropyCC/CC_NPY.data')
+    ECCnpy.project=proj
 else:
     md_dir='/Volumes/My Book/Y1/NPY'
     
@@ -165,6 +173,7 @@ proj.chimera.savefig(os.path.join(folder,f'Y1_CC_NPY_{res_max}.png'),options='tr
 #%% NPY/Gprotein bound
 if os.path.exists('EntropyCC/CC_Gi.data'):
     ECCgi=EntropyCC('EntropyCC/CC_Gi.data')
+    ECCgi.project=proj
 else:
     md_dir='/Volumes/My Book/Y1/NPY_Gi'
     
@@ -173,10 +182,10 @@ else:
     
     select=pyDR.MolSelect(topo,trajs,project=proj)
     select.select_bond('15N',segids=['D','E'])
-    select.traj.step=1
+    select.traj.step=5
     
     ECCgi=EntropyCC(select)
-    ECCgi.save('EntropyCC/CC_Gi.data')
+    # ECCgi.save('EntropyCC/CC_Gi.data')
 
 fig,ax=plt.subplots()
 ECCgi.plotCC(ax=ax)
@@ -191,3 +200,24 @@ proj.chimera.close()
 ECCgi.CCchimera(indexCC=np.argmax(CC.sum(0)))
 proj.chimera.command_line(commands)
 proj.chimera.savefig(os.path.join(folder,f'Y1_CC_gi_{res_max}.png'),options='transparentBackground true',overwrite=True)
+
+# Plot time dependence of R33 in NPY
+i=328 #(R33)
+fig,ax=plt.subplots()
+ax.plot(ECCgi.state[i])
+ax.set_xlabel('Frame')
+ax.set_ylabel('State')
+ax.set_title('NPY R33 in Gi bound NPY')
+fig.savefig(os.path.join(folder,'Y1_Gi_NPY33_t_depend.png'))
+
+i1=np.argmax(ECCgi.resids==254)
+fig,ax=plt.subplots(2,1)
+ax[0].plot(ECCgi.state[i])
+ax[0].set_xlabel('Frame')
+ax[0].set_ylabel('State')
+ax[1].plot(ECCgi.state[i1])
+ax[1].set_xlabel('Frame')
+ax[1].set_ylabel('State')
+ax[0].set_title('R33_v_R254')
+
+fig.savefig(os.path.join(folder,'R33_v_R254_Gi_bound.png'))
