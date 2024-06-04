@@ -269,4 +269,4 @@ proj2['no_opt'].detect.r_auto(6)
 proj2['no_opt'].fit().opt2dist(rhoz_cleanup=True)
 proj2['opt_fit']['iREDmode'].modes2bonds()
 
-proj1.save()
+proj2.save()

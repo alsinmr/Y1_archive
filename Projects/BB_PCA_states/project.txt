@@ -1,0 +1,280 @@
+DATA
+Type:	MD
+status:	no_opt
+short_file:	apo1.xtc
+title:	n10:MD:PCA:0,2/W276:2:apo1
+additional_info:	PCA:0,2/W276:2
+filename:	n10_MD_PCA_0,2_W276_2_apo1.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	no_opt
+short_file:	apo1.xtc
+title:	n10:IREDMODE:PCA:0,2/W276:2:apo1
+additional_info:	PCA:0,2/W276:2
+filename:	n10_IREDMODE_PCA_0,2_W276_2_apo1.data
+END:DATA
+DATA
+Type:	MD
+status:	no_opt
+short_file:	apo1.xtc
+title:	n10:MD:PCA:0,2/W276:3:apo1
+additional_info:	PCA:0,2/W276:3
+filename:	n10_MD_PCA_0,2_W276_3_apo1.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	no_opt
+short_file:	apo1.xtc
+title:	n10:IREDMODE:PCA:0,2/W276:3:apo1
+additional_info:	PCA:0,2/W276:3
+filename:	n10_IREDMODE_PCA_0,2_W276_3_apo1.data
+END:DATA
+DATA
+Type:	MD
+status:	no_opt
+short_file:	apo1.xtc
+title:	n10:MD:PCA:1/W276:1:apo1
+additional_info:	PCA:1/W276:1
+filename:	n10_MD_PCA_1_W276_1_apo1.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	no_opt
+short_file:	apo1.xtc
+title:	n10:IREDMODE:PCA:1/W276:1:apo1
+additional_info:	PCA:1/W276:1
+filename:	n10_IREDMODE_PCA_1_W276_1_apo1.data
+END:DATA
+DATA
+Type:	MD
+status:	no_opt
+short_file:	apo1.xtc
+title:	n10:MD:PCA:3/W276:1,2:apo1
+additional_info:	PCA:3/W276:1,2
+filename:	n10_MD_PCA_3_W276_1,2_apo1.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	no_opt
+short_file:	apo1.xtc
+title:	n10:IREDMODE:PCA:3/W276:1,2:apo1
+additional_info:	PCA:3/W276:1,2
+filename:	n10_IREDMODE_PCA_3_W276_1,2_apo1.data
+END:DATA
+DATA
+Type:	MD
+status:	no_opt
+short_file:	apo1.xtc
+title:	n10:MD:PCA:4,5/W276:1:apo1
+additional_info:	PCA:4,5/W276:1
+filename:	n10_MD_PCA_4,5_W276_1_apo1.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	no_opt
+short_file:	apo1.xtc
+title:	n10:IREDMODE:PCA:4,5/W276:1:apo1
+additional_info:	PCA:4,5/W276:1
+filename:	n10_IREDMODE_PCA_4,5_W276_1_apo1.data
+END:DATA
+DATA
+Type:	MD
+status:	proc
+short_file:	apo1.xtc
+title:	p6:MD:PCA:0,2/W276:2:apo1
+additional_info:	PCA:0,2/W276:2
+filename:	p6_MD_PCA_0,2_W276_2_apo1.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	proc
+short_file:	apo1.xtc
+title:	p6:IREDMODE:PCA:0,2/W276:2:apo1
+additional_info:	PCA:0,2/W276:2
+filename:	p6_IREDMODE_PCA_0,2_W276_2_apo1.data
+END:DATA
+DATA
+Type:	MD
+status:	proc
+short_file:	apo1.xtc
+title:	p6:MD:PCA:0,2/W276:3:apo1
+additional_info:	PCA:0,2/W276:3
+filename:	p6_MD_PCA_0,2_W276_3_apo1.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	proc
+short_file:	apo1.xtc
+title:	p6:IREDMODE:PCA:0,2/W276:3:apo1
+additional_info:	PCA:0,2/W276:3
+filename:	p6_IREDMODE_PCA_0,2_W276_3_apo1.data
+END:DATA
+DATA
+Type:	MD
+status:	proc
+short_file:	apo1.xtc
+title:	p6:MD:PCA:1/W276:1:apo1
+additional_info:	PCA:1/W276:1
+filename:	p6_MD_PCA_1_W276_1_apo1.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	proc
+short_file:	apo1.xtc
+title:	p6:IREDMODE:PCA:1/W276:1:apo1
+additional_info:	PCA:1/W276:1
+filename:	p6_IREDMODE_PCA_1_W276_1_apo1.data
+END:DATA
+DATA
+Type:	MD
+status:	proc
+short_file:	apo1.xtc
+title:	p6:MD:PCA:3/W276:1,2:apo1
+additional_info:	PCA:3/W276:1,2
+filename:	p6_MD_PCA_3_W276_1,2_apo1.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	proc
+short_file:	apo1.xtc
+title:	p6:IREDMODE:PCA:3/W276:1,2:apo1
+additional_info:	PCA:3/W276:1,2
+filename:	p6_IREDMODE_PCA_3_W276_1,2_apo1.data
+END:DATA
+DATA
+Type:	MD
+status:	proc
+short_file:	apo1.xtc
+title:	p6:MD:PCA:4,5/W276:1:apo1
+additional_info:	PCA:4,5/W276:1
+filename:	p6_MD_PCA_4,5_W276_1_apo1.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	proc
+short_file:	apo1.xtc
+title:	p6:IREDMODE:PCA:4,5/W276:1:apo1
+additional_info:	PCA:4,5/W276:1
+filename:	p6_IREDMODE_PCA_4,5_W276_1_apo1.data
+END:DATA
+DATA
+Type:	MD
+status:	opt_fit
+short_file:	apo1.xtc
+title:	o6:MD:PCA:0,2/W276:2:apo1
+additional_info:	PCA:0,2/W276:2
+filename:	o6_MD_PCA_0,2_W276_2_apo1.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	opt_fit
+short_file:	apo1.xtc
+title:	o6:IREDMODE:PCA:0,2/W276:2:apo1
+additional_info:	PCA:0,2/W276:2
+filename:	o6_IREDMODE_PCA_0,2_W276_2_apo1.data
+END:DATA
+DATA
+Type:	MD
+status:	opt_fit
+short_file:	apo1.xtc
+title:	o6:MD:PCA:0,2/W276:3:apo1
+additional_info:	PCA:0,2/W276:3
+filename:	o6_MD_PCA_0,2_W276_3_apo1.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	opt_fit
+short_file:	apo1.xtc
+title:	o6:IREDMODE:PCA:0,2/W276:3:apo1
+additional_info:	PCA:0,2/W276:3
+filename:	o6_IREDMODE_PCA_0,2_W276_3_apo1.data
+END:DATA
+DATA
+Type:	MD
+status:	opt_fit
+short_file:	apo1.xtc
+title:	o6:MD:PCA:1/W276:1:apo1
+additional_info:	PCA:1/W276:1
+filename:	o6_MD_PCA_1_W276_1_apo1.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	opt_fit
+short_file:	apo1.xtc
+title:	o6:IREDMODE:PCA:1/W276:1:apo1
+additional_info:	PCA:1/W276:1
+filename:	o6_IREDMODE_PCA_1_W276_1_apo1.data
+END:DATA
+DATA
+Type:	MD
+status:	opt_fit
+short_file:	apo1.xtc
+title:	o6:MD:PCA:3/W276:1,2:apo1
+additional_info:	PCA:3/W276:1,2
+filename:	o6_MD_PCA_3_W276_1,2_apo1.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	opt_fit
+short_file:	apo1.xtc
+title:	o6:IREDMODE:PCA:3/W276:1,2:apo1
+additional_info:	PCA:3/W276:1,2
+filename:	o6_IREDMODE_PCA_3_W276_1,2_apo1.data
+END:DATA
+DATA
+Type:	MD
+status:	opt_fit
+short_file:	apo1.xtc
+title:	o6:MD:PCA:4,5/W276:1:apo1
+additional_info:	PCA:4,5/W276:1
+filename:	o6_MD_PCA_4,5_W276_1_apo1.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	opt_fit
+short_file:	apo1.xtc
+title:	o6:IREDMODE:PCA:4,5/W276:1:apo1
+additional_info:	PCA:4,5/W276:1
+filename:	o6_IREDMODE_PCA_4,5_W276_1_apo1.data
+END:DATA
+DATA
+Type:	iREDbond
+status:	opt_fit
+short_file:	apo1.xtc
+title:	o6:IREDBOND:PCA:0,2/W276:2:apo1
+additional_info:	PCA:0,2/W276:2
+filename:	o6_IREDBOND_PCA_0,2_W276_2_apo1.data
+END:DATA
+DATA
+Type:	iREDbond
+status:	opt_fit
+short_file:	apo1.xtc
+title:	o6:IREDBOND:PCA:0,2/W276:3:apo1
+additional_info:	PCA:0,2/W276:3
+filename:	o6_IREDBOND_PCA_0,2_W276_3_apo1.data
+END:DATA
+DATA
+Type:	iREDbond
+status:	opt_fit
+short_file:	apo1.xtc
+title:	o6:IREDBOND:PCA:1/W276:1:apo1
+additional_info:	PCA:1/W276:1
+filename:	o6_IREDBOND_PCA_1_W276_1_apo1.data
+END:DATA
+DATA
+Type:	iREDbond
+status:	opt_fit
+short_file:	apo1.xtc
+title:	o6:IREDBOND:PCA:3/W276:1,2:apo1
+additional_info:	PCA:3/W276:1,2
+filename:	o6_IREDBOND_PCA_3_W276_1,2_apo1.data
+END:DATA
+DATA
+Type:	iREDbond
+status:	opt_fit
+short_file:	apo1.xtc
+title:	o6:IREDBOND:PCA:4,5/W276:1:apo1
+additional_info:	PCA:4,5/W276:1
+filename:	o6_IREDBOND_PCA_4,5_W276_1_apo1.data
+END:DATA
