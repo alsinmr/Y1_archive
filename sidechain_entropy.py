@@ -22,7 +22,7 @@ proj=pyDR.Project()
 md_dir='/Volumes/My Book/Y1/apo'
 
 topo=os.path.join(md_dir,'prot.pdb')
-trajs=[os.path.join(md_dir,f'apo{k+1}.xtc') for k in range(3)]
+trajs=[os.path.join(md_dir,f'apo{k+1}.xtc') for k in range(2)]
 
 commands=['turn x -90','turn y 180','view','sel :276']
 
