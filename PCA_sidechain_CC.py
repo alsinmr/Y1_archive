@@ -29,7 +29,7 @@ trajs=[os.path.join(md_dir,f'apo{k+1}.xtc') for k in range(3)]
 
 commands=['turn x -90','turn y 180','view','sel :276']
 
-folder='/Users/albertsmith/Documents/DynamicsLaptop/Y1_GPCR/sidechain_ana' #Location for  figures
+folder='/Users/albertsmith/Documents/DynamicsLaptop/Y1_GPCR/Report240603' #Location for  figures
 
 select=pyDR.MolSelect(topo,trajs,project=proj)
 select.select_bond('15N')
@@ -45,7 +45,11 @@ ECC.PCA.select_atoms('name N C CA')
 nc=6
 ECC.PCA.Cluster.n_clusters=nc
 ECC.PCA.Cluster.index=[0,1,2]
-ECC.PCA.Cluster.plot()
+fig=ECC.PCA.Cluster.plot()[0].figure
+fig.set_size_inches([8,3.6])
+fig.tight_layout()
+fig.savefig(os.path.join(folder,'BackbonePCA_cluster.png'))
+
 
 #%% Plot the clusters
 ECC.PCA.Cluster.plot()
@@ -75,6 +79,11 @@ ax.set_xlabel('PCA state')
 ax.legend(hdl,('Unassigned','State 1','State 2','State 3'))
 ax.set_title('W276 state vs. PCA state')
 ax.set_ylabel('%')
+fig=ax.figure
+fig.set_size_inches([5.15,4.2])
+fig.tight_layout()
+fig.savefig(os.path.join(folder,'PCA_v_W276_percent.png'))
+
 
 
 #%% Plot Cross-correlation
@@ -85,31 +94,48 @@ for a0 in a:
     ax.plot([a0,a0],CCpca[a0]+np.array([.01,.03]),color='red')
     ax.text(a0,CCpca[a0]+.05,f'{AA(ECC.resi[a0].resname).symbol}{ECC.resids[a0]}',
             rotation=90,horizontalalignment='center',verticalalignment='center')
+fig=ax.figure
+fig.set_size_inches([12.2,4.0])
+fig.tight_layout()
+fig.savefig(os.path.join(folder,'PCA_CC.png'))
     
 #%% Sidechain CC vs. PCA CC
-ax=plt.subplots()[1]
+fig,ax=plt.subplots()
 ax.plot(ECC.CC.sum(1)/ECC.CC.sum(1).max()*ECC.CCpca.max(),color='black')
 ECC.plotCCpca(color='red',linestyle=':',ax=ax)
 ax.legend(('Sum of C.C.','C.C. vs. PCA'))
 ax.set_ylim(ax.get_ylim())
-# i=np.argmax(ECC.resids==113)
-# ax.plot([i,i],ax.get_ylim(),color='grey')
-# i=np.argmax(ECC.resids==198)
-# ax.plot([i,i],ax.get_ylim(),color='grey')
+fig.set_size_inches([10,4])
+fig.tight_layout()
+fig.savefig(os.path.join(folder,'CC_PCA_vs_CCsum.png'))
+
+
+fig=ECC.plotCC().figure
+fig.savefig(os.path.join(folder,'sidechain_CC.png'))
+
 
 #%% Plots for each state
-state=[0,0,1,2,3,4,5,5]
-state276=[2,3,1,1,2,1,1,2]
+state=   [0,1, 2,    3,   4,5]
+state276=[1,2,[2,3],[1,2],1,1]
 
 d0=6
 
+commands=['show :276&~@H*','transparency 50 target r','turn z 135','turn x 10','view','zoom 1.5']
 for s0,s2760 in zip(state,state276):
-    d=np.sqrt(((ECC.PCA.PCamp[ECC.PCA.Cluster.index].T-ECC.PCA.Cluster.PCavg[s0])**2).sum(-1))
-    i=np.logical_and(np.logical_and(d<d0,getW276state(np.arange(nt))==s2760),
-                               ECC.PCA.Cluster.state==s0)
-    print(np.argwhere(i)[0,0])
-    ECC.PCA.Cluster.chimera(frame=np.argwhere(i)[0,0])
+    proj.chimera.close()
+    for s00 in np.atleast_1d(s2760):
+        d=np.sqrt(((ECC.PCA.PCamp[ECC.PCA.Cluster.index].T-ECC.PCA.Cluster.PCavg[s0])**2).sum(-1))
+        i=np.logical_and(np.logical_and(d<d0,getW276state(np.arange(nt))==s00),
+                                   ECC.PCA.Cluster.state==s0)
+        print(np.argwhere(i)[0,0])
+        ECC.PCA.Cluster.chimera(frame=np.argwhere(i)[0,0])
+    proj.chimera.command_line(commands)
+    proj.chimera.savefig(os.path.join(folder,f'PCA_state{s0}_EC.png'),options='transparentBackground True',overwrite=True)
+    proj.chimera.command_line('turn x 170')
+    proj.chimera.savefig(os.path.join(folder,f'PCA_state{s0}_IC.png'),options='transparentBackground True',overwrite=True)
     
+    proj.chimera.command_line(['turn x 80','turn y 40','view','zoom 1.1'])
+    proj.chimera.savefig(os.path.join(folder,f'PCA_state{s0}.png'),options='transparentBackground True',overwrite=True)
     
 #%% Time trajectory
 from States import states
@@ -209,12 +235,43 @@ a6=AS.atoms[np.logical_and(AS.atoms.resids>=TM6[0],AS.atoms.resids<=TM6[1])]
 d26a=np.sqrt(((a2.positions.mean(0)-a6.positions.mean(0))**2).sum())
 
 #%% Analyze particular states?
-proj1=pyDR.Project('Projects/SC_PCA_states',create=True)
-titles=['PCA:0,2/W276:2','PCA:0,2/W276:3','PCA:1/W276:1','PCA:3/W276:1,2','PCA:4,5/W276:1']
+
+
+
+titles=['PCA:1,2/W276:2','PCA:1,2/W276:3','PCA:0/W276:1','PCA:3/W276:1,2','PCA:5/W276:1']
 t0=np.array([9400,20000,36000,44000,59318])
 tf=t0+6000
 
+#Plot where we analyze
+fig,ax=plt.subplots(2,1)
+ax[0].scatter(np.arange(l[-1])/1000,ECC.PCA.Cluster.state,s=1)
+stateW276=np.concatenate([s for s in states.values()])
+ax[1].scatter(np.arange(l[-1])/1000,stateW276,s=1)
+for a in ax:
+    a.set_ylim(a.get_ylim())
+    for k,(t,title) in enumerate(zip(t0,titles)):
+        color=[c for c in plt.get_cmap('tab10')(k)]
+        color[-1]=.25
+        a.fill_between([t/1000,t/1000+6],y1=[a.get_ylim()[0],a.get_ylim()[0]],
+                       y2=[a.get_ylim()[1],a.get_ylim()[1]],color=color)
+    for l0 in l[1:-1]:
+        a.plot([l0/1000,l0/1000],a.get_ylim(),color='black')
+        
+for t,title in zip(t0,titles):
+    ax[1].text(t/1000+3,1.5,title.replace('/',' / '),rotation=90,horizontalalignment='center',
+               verticalalignment='center')
+ax[0].set_ylabel('PCA state')
+ax[1].set_ylabel('W276 state')
+ax[1].set_xlabel(r't / $\mu$s')
+fig.set_size_inches([11.6,5.5])
+fig.tight_layout()
+fig.savefig(os.path.join(folder,'PCA_chunks.png'))
+        
+        
 
+proj1=pyDR.Project('Projects/SC_PCA_states',create=True)
+
+# Perform detector / iRED analyses
 md_dir='/Volumes/My Book/Y1/apo'
 
 topo=os.path.join(md_dir,'prot.pdb')
@@ -227,8 +284,8 @@ select.traj.step=1
 for t00,tf0,title in zip(t0,tf,titles):
     select.traj.t0=t00
     select.traj.tf=tf0
-    pyDR.md2data(select)
-    pyDR.md2iRED(select).iRED2data()
+    pyDR.md2data(select,rank=1)
+    pyDR.md2iRED(select).iRED2data(rank=1)
     proj1[-2].source.additional_info=title
     proj1[-1].source.additional_info=title
 
@@ -258,8 +315,8 @@ select.traj.step=1
 for t00,tf0,title in zip(t0,tf,titles):
     select.traj.t0=t00
     select.traj.tf=tf0
-    pyDR.md2data(select)
-    pyDR.md2iRED(select).iRED2data()
+    pyDR.md2data(select,rank=1)
+    pyDR.md2iRED(select).iRED2data(rank=1)
     proj2[-2].source.additional_info=title
     proj2[-1].source.additional_info=title
 

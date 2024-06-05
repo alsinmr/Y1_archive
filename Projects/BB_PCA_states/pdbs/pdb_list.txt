@@ -1,35 +1,35 @@
-n10_MD_PCA_0,2_W276_2_apo1.data:prot:/Volumes/My Book/Y1/apo/prot.pdb
-n10_IREDMODE_PCA_0,2_W276_2_apo1.data:prot:/Volumes/My Book/Y1/apo/prot.pdb
-n10_MD_PCA_0,2_W276_3_apo1.data:prot:/Volumes/My Book/Y1/apo/prot.pdb
-n10_IREDMODE_PCA_0,2_W276_3_apo1.data:prot:/Volumes/My Book/Y1/apo/prot.pdb
-n10_MD_PCA_1_W276_1_apo1.data:prot:/Volumes/My Book/Y1/apo/prot.pdb
-n10_IREDMODE_PCA_1_W276_1_apo1.data:prot:/Volumes/My Book/Y1/apo/prot.pdb
-n10_MD_PCA_3_W276_1,2_apo1.data:prot:/Volumes/My Book/Y1/apo/prot.pdb
-n10_IREDMODE_PCA_3_W276_1,2_apo1.data:prot:/Volumes/My Book/Y1/apo/prot.pdb
-n10_MD_PCA_4,5_W276_1_apo1.data:prot:/Volumes/My Book/Y1/apo/prot.pdb
-n10_IREDMODE_PCA_4,5_W276_1_apo1.data:prot:/Volumes/My Book/Y1/apo/prot.pdb
-p6_MD_PCA_0,2_W276_2_apo1.data:prot:/Volumes/My Book/Y1/apo/prot.pdb
-p6_IREDMODE_PCA_0,2_W276_2_apo1.data:prot:/Volumes/My Book/Y1/apo/prot.pdb
-p6_MD_PCA_0,2_W276_3_apo1.data:prot:/Volumes/My Book/Y1/apo/prot.pdb
-p6_IREDMODE_PCA_0,2_W276_3_apo1.data:prot:/Volumes/My Book/Y1/apo/prot.pdb
-p6_MD_PCA_1_W276_1_apo1.data:prot:/Volumes/My Book/Y1/apo/prot.pdb
-p6_IREDMODE_PCA_1_W276_1_apo1.data:prot:/Volumes/My Book/Y1/apo/prot.pdb
-p6_MD_PCA_3_W276_1,2_apo1.data:prot:/Volumes/My Book/Y1/apo/prot.pdb
-p6_IREDMODE_PCA_3_W276_1,2_apo1.data:prot:/Volumes/My Book/Y1/apo/prot.pdb
-p6_MD_PCA_4,5_W276_1_apo1.data:prot:/Volumes/My Book/Y1/apo/prot.pdb
-p6_IREDMODE_PCA_4,5_W276_1_apo1.data:prot:/Volumes/My Book/Y1/apo/prot.pdb
-o6_MD_PCA_0,2_W276_2_apo1.data:prot:/Volumes/My Book/Y1/apo/prot.pdb
-o6_IREDMODE_PCA_0,2_W276_2_apo1.data:prot:/Volumes/My Book/Y1/apo/prot.pdb
-o6_MD_PCA_0,2_W276_3_apo1.data:prot:/Volumes/My Book/Y1/apo/prot.pdb
-o6_IREDMODE_PCA_0,2_W276_3_apo1.data:prot:/Volumes/My Book/Y1/apo/prot.pdb
-o6_MD_PCA_1_W276_1_apo1.data:prot:/Volumes/My Book/Y1/apo/prot.pdb
-o6_IREDMODE_PCA_1_W276_1_apo1.data:prot:/Volumes/My Book/Y1/apo/prot.pdb
-o6_MD_PCA_3_W276_1,2_apo1.data:prot:/Volumes/My Book/Y1/apo/prot.pdb
-o6_IREDMODE_PCA_3_W276_1,2_apo1.data:prot:/Volumes/My Book/Y1/apo/prot.pdb
-o6_MD_PCA_4,5_W276_1_apo1.data:prot:/Volumes/My Book/Y1/apo/prot.pdb
-o6_IREDMODE_PCA_4,5_W276_1_apo1.data:prot:/Volumes/My Book/Y1/apo/prot.pdb
-o6_IREDBOND_PCA_0,2_W276_2_apo1.data:prot:/Volumes/My Book/Y1/apo/prot.pdb
-o6_IREDBOND_PCA_0,2_W276_3_apo1.data:prot:/Volumes/My Book/Y1/apo/prot.pdb
-o6_IREDBOND_PCA_1_W276_1_apo1.data:prot:/Volumes/My Book/Y1/apo/prot.pdb
-o6_IREDBOND_PCA_3_W276_1,2_apo1.data:prot:/Volumes/My Book/Y1/apo/prot.pdb
-o6_IREDBOND_PCA_4,5_W276_1_apo1.data:prot:/Volumes/My Book/Y1/apo/prot.pdb
+n10_MD_PCA_0,2_W276_2_apo1.data:prot_ts9400:/Users/albertsmith/Documents/GitHub/Y1_archive/Projects/BB_PCA_states/scratch/prot_ts9400.pdb
+n10_IREDMODE_PCA_0,2_W276_2_apo1.data:prot_ts9400:/Users/albertsmith/Documents/GitHub/Y1_archive/Projects/BB_PCA_states/scratch/prot_ts9400.pdb
+n10_MD_PCA_0,2_W276_3_apo1.data:prot_ts20000:/Users/albertsmith/Documents/GitHub/Y1_archive/Projects/BB_PCA_states/scratch/prot_ts20000.pdb
+n10_IREDMODE_PCA_0,2_W276_3_apo1.data:prot_ts20000:/Users/albertsmith/Documents/GitHub/Y1_archive/Projects/BB_PCA_states/scratch/prot_ts20000.pdb
+n10_MD_PCA_1_W276_1_apo1.data:prot_ts36000:/Users/albertsmith/Documents/GitHub/Y1_archive/Projects/BB_PCA_states/scratch/prot_ts36000.pdb
+n10_IREDMODE_PCA_1_W276_1_apo1.data:prot_ts36000:/Users/albertsmith/Documents/GitHub/Y1_archive/Projects/BB_PCA_states/scratch/prot_ts36000.pdb
+n10_MD_PCA_3_W276_1,2_apo1.data:prot_ts44000:/Users/albertsmith/Documents/GitHub/Y1_archive/Projects/BB_PCA_states/scratch/prot_ts44000.pdb
+n10_IREDMODE_PCA_3_W276_1,2_apo1.data:prot_ts44000:/Users/albertsmith/Documents/GitHub/Y1_archive/Projects/BB_PCA_states/scratch/prot_ts44000.pdb
+n10_MD_PCA_4,5_W276_1_apo1.data:prot_ts59318:/Users/albertsmith/Documents/GitHub/Y1_archive/Projects/BB_PCA_states/scratch/prot_ts59318.pdb
+n10_IREDMODE_PCA_4,5_W276_1_apo1.data:prot_ts59318:/Users/albertsmith/Documents/GitHub/Y1_archive/Projects/BB_PCA_states/scratch/prot_ts59318.pdb
+p6_MD_PCA_0,2_W276_2_apo1.data:prot_ts9400:/Users/albertsmith/Documents/GitHub/Y1_archive/Projects/BB_PCA_states/scratch/prot_ts9400.pdb
+p6_IREDMODE_PCA_0,2_W276_2_apo1.data:prot_ts9400:/Users/albertsmith/Documents/GitHub/Y1_archive/Projects/BB_PCA_states/scratch/prot_ts9400.pdb
+p6_MD_PCA_0,2_W276_3_apo1.data:prot_ts20000:/Users/albertsmith/Documents/GitHub/Y1_archive/Projects/BB_PCA_states/scratch/prot_ts20000.pdb
+p6_IREDMODE_PCA_0,2_W276_3_apo1.data:prot_ts20000:/Users/albertsmith/Documents/GitHub/Y1_archive/Projects/BB_PCA_states/scratch/prot_ts20000.pdb
+p6_MD_PCA_1_W276_1_apo1.data:prot_ts36000:/Users/albertsmith/Documents/GitHub/Y1_archive/Projects/BB_PCA_states/scratch/prot_ts36000.pdb
+p6_IREDMODE_PCA_1_W276_1_apo1.data:prot_ts36000:/Users/albertsmith/Documents/GitHub/Y1_archive/Projects/BB_PCA_states/scratch/prot_ts36000.pdb
+p6_MD_PCA_3_W276_1,2_apo1.data:prot_ts44000:/Users/albertsmith/Documents/GitHub/Y1_archive/Projects/BB_PCA_states/scratch/prot_ts44000.pdb
+p6_IREDMODE_PCA_3_W276_1,2_apo1.data:prot_ts44000:/Users/albertsmith/Documents/GitHub/Y1_archive/Projects/BB_PCA_states/scratch/prot_ts44000.pdb
+p6_MD_PCA_4,5_W276_1_apo1.data:prot_ts59318:/Users/albertsmith/Documents/GitHub/Y1_archive/Projects/BB_PCA_states/scratch/prot_ts59318.pdb
+p6_IREDMODE_PCA_4,5_W276_1_apo1.data:prot_ts59318:/Users/albertsmith/Documents/GitHub/Y1_archive/Projects/BB_PCA_states/scratch/prot_ts59318.pdb
+o6_MD_PCA_0,2_W276_2_apo1.data:prot_ts9400:/Users/albertsmith/Documents/GitHub/Y1_archive/Projects/BB_PCA_states/scratch/prot_ts9400.pdb
+o6_IREDMODE_PCA_0,2_W276_2_apo1.data:prot_ts9400:/Users/albertsmith/Documents/GitHub/Y1_archive/Projects/BB_PCA_states/scratch/prot_ts9400.pdb
+o6_MD_PCA_0,2_W276_3_apo1.data:prot_ts20000:/Users/albertsmith/Documents/GitHub/Y1_archive/Projects/BB_PCA_states/scratch/prot_ts20000.pdb
+o6_IREDMODE_PCA_0,2_W276_3_apo1.data:prot_ts20000:/Users/albertsmith/Documents/GitHub/Y1_archive/Projects/BB_PCA_states/scratch/prot_ts20000.pdb
+o6_MD_PCA_1_W276_1_apo1.data:prot_ts36000:/Users/albertsmith/Documents/GitHub/Y1_archive/Projects/BB_PCA_states/scratch/prot_ts36000.pdb
+o6_IREDMODE_PCA_1_W276_1_apo1.data:prot_ts36000:/Users/albertsmith/Documents/GitHub/Y1_archive/Projects/BB_PCA_states/scratch/prot_ts36000.pdb
+o6_MD_PCA_3_W276_1,2_apo1.data:prot_ts44000:/Users/albertsmith/Documents/GitHub/Y1_archive/Projects/BB_PCA_states/scratch/prot_ts44000.pdb
+o6_IREDMODE_PCA_3_W276_1,2_apo1.data:prot_ts44000:/Users/albertsmith/Documents/GitHub/Y1_archive/Projects/BB_PCA_states/scratch/prot_ts44000.pdb
+o6_MD_PCA_4,5_W276_1_apo1.data:prot_ts59318:/Users/albertsmith/Documents/GitHub/Y1_archive/Projects/BB_PCA_states/scratch/prot_ts59318.pdb
+o6_IREDMODE_PCA_4,5_W276_1_apo1.data:prot_ts59318:/Users/albertsmith/Documents/GitHub/Y1_archive/Projects/BB_PCA_states/scratch/prot_ts59318.pdb
+o6_IREDBOND_PCA_0,2_W276_2_apo1.data:prot_ts9400:/Users/albertsmith/Documents/GitHub/Y1_archive/Projects/BB_PCA_states/scratch/prot_ts9400.pdb
+o6_IREDBOND_PCA_0,2_W276_3_apo1.data:prot_ts20000:/Users/albertsmith/Documents/GitHub/Y1_archive/Projects/BB_PCA_states/scratch/prot_ts20000.pdb
+o6_IREDBOND_PCA_1_W276_1_apo1.data:prot_ts36000:/Users/albertsmith/Documents/GitHub/Y1_archive/Projects/BB_PCA_states/scratch/prot_ts36000.pdb
+o6_IREDBOND_PCA_3_W276_1,2_apo1.data:prot_ts44000:/Users/albertsmith/Documents/GitHub/Y1_archive/Projects/BB_PCA_states/scratch/prot_ts44000.pdb
+o6_IREDBOND_PCA_4,5_W276_1_apo1.data:prot_ts59318:/Users/albertsmith/Documents/GitHub/Y1_archive/Projects/BB_PCA_states/scratch/prot_ts59318.pdb
