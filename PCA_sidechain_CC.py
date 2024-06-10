@@ -327,3 +327,78 @@ proj2['no_opt'].fit().opt2dist(rhoz_cleanup=True)
 proj2['opt_fit']['iREDmode'].modes2bonds()
 
 proj2.save()
+
+#%% Analyze full trajectories
+select=pyDR.MolSelect(topo,trajs,project=proj1)
+select.select_bond('sidechain')
+select.traj.step=1
+
+pyDR.md2data(select,rank=1)
+pyDR.md2iRED(select,rank=1).iRED2data()
+proj1[-2].source.additional_info='full_traj'
+proj1[-1].source.additional_info='full_traj'
+proj1['full_traj'].detect.r_no_opt(12)
+proj1['full_traj'].fit()
+proj1['full_traj']['no_opt'].detect.r_auto(7)
+proj1['full_traj']['no_opt'].fit().opt2dist(rhoz_cleanup=True)
+
+
+select=pyDR.MolSelect(topo,trajs,project=proj2)
+select.select_bond('15N')
+select.traj.step=1
+
+pyDR.md2data(select,rank=1)
+pyDR.md2iRED(select,rank=1).iRED2data()
+proj2[-2].source.additional_info='full_traj'
+proj2[-1].source.additional_info='full_traj'
+proj2['full_traj'].detect.r_no_opt(12)
+proj2['full_traj'].fit()
+proj2['full_traj']['no_opt'].detect.r_auto(7)
+proj2['full_traj']['no_opt'].fit().opt2dist(rhoz_cleanup=True)
+
+
+#%% Entropy-based CC
+select=pyDR.MolSelect(topo,trajs,project=proj1)
+select.traj.step=1
+
+commands=['turn x -90','turn y 110','view','lighting full','~ribbon']
+
+for t00,tf0 in zip(t0,tf):
+    select.traj.t0=t00
+    select.traj.tf=tf0
+    select.molsys.make_pdb(ti=0)
+    select.select_bond('15N')
+    
+    ECC=EntropyCC(select)
+    proj1.chimera.close()
+    ECC.CCchimera(indexCC=ECC.resids==276)
+    proj1.chimera.command_line(commands)
+    proj1.chimera.savefig(os.path.join(folder,f'ECC_t0_{t00}.png'),
+                          options='transparentBackground True',overwrite=True)
+    
+#%% Total ECC figure
+select=pyDR.MolSelect(topo,trajs,project=proj1)
+select.traj.step=1
+select.select_bond('15N')
+
+ECC=EntropyCC(select)
+proj1.chimera.close()
+ECC.CCchimera(indexCC=ECC.resids==276)
+proj1.chimera.command_line(commands)
+proj1.chimera.savefig(os.path.join(folder,f'ECC_total.png'),
+                      options='transparentBackground True')
+
+#%% Total iRED CC
+proj1.chimera.close()
+d=proj1['iREDbond']['full_traj']
+d.CCchimera(rho_index=[5],indexCC=d.label==276,scaling=1)
+proj1.chimera.command_line(commands)
+proj1.chimera.command_line(['ribbon','~show @H*','~sel'])
+proj1.chimera.savefig(os.path.join(folder,f'CC_SC_total.png'),options='transparentBackground True',overwrite=True)
+
+proj2.chimera.close()
+d=proj2['iREDbond']['full_traj']
+d.CCchimera(rho_index=[5],indexCC=d.label==276,scaling=1)
+proj2.chimera.command_line(commands)
+proj1.chimera.command_line(['~sel'])
+proj2.chimera.savefig(os.path.join(folder,f'CC_BB_total.png'),options='transparentBackground True',overwrite=True)

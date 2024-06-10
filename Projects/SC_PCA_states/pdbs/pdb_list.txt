@@ -33,3 +33,10 @@ o6_IREDBOND_PCA_0,2_W276_3_apo1.data:prot_ts20000:/Users/albertsmith/Documents/G
 o6_IREDBOND_PCA_1_W276_1_apo1.data:prot_ts36000:/Users/albertsmith/Documents/GitHub/Y1_archive/Projects/SC_PCA_states/scratch/prot_ts36000.pdb
 o6_IREDBOND_PCA_3_W276_1,2_apo1.data:prot_ts44000:/Users/albertsmith/Documents/GitHub/Y1_archive/Projects/SC_PCA_states/scratch/prot_ts44000.pdb
 o6_IREDBOND_PCA_4,5_W276_1_apo1.data:prot_ts59318:/Users/albertsmith/Documents/GitHub/Y1_archive/Projects/SC_PCA_states/scratch/prot_ts59318.pdb
+n12_MD_full_traj_apo1.data:prot_ts0:/Users/albertsmith/Documents/GitHub/Y1_archive/Projects/SC_PCA_states/scratch/prot_ts0.pdb
+n12_IREDMODE_full_traj_apo1.data:prot_ts0:/Users/albertsmith/Documents/GitHub/Y1_archive/Projects/SC_PCA_states/scratch/prot_ts0.pdb
+p7_MD_full_traj_apo1.data:prot_ts0:/Users/albertsmith/Documents/GitHub/Y1_archive/Projects/SC_PCA_states/scratch/prot_ts0.pdb
+p7_IREDMODE_full_traj_apo1.data:prot_ts0:/Users/albertsmith/Documents/GitHub/Y1_archive/Projects/SC_PCA_states/scratch/prot_ts0.pdb
+o7_MD_full_traj_apo1.data:prot_ts0:/Users/albertsmith/Documents/GitHub/Y1_archive/Projects/SC_PCA_states/scratch/prot_ts0.pdb
+o7_IREDMODE_full_traj_apo1.data:prot_ts0:/Users/albertsmith/Documents/GitHub/Y1_archive/Projects/SC_PCA_states/scratch/prot_ts0.pdb
+o7_IREDBOND_full_traj_apo1.data:prot_ts0:/Users/albertsmith/Documents/GitHub/Y1_archive/Projects/SC_PCA_states/scratch/prot_ts0.pdb

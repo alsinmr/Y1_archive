@@ -278,3 +278,59 @@ title:	o6:IREDBOND:PCA:4,5/W276:1:apo1
 additional_info:	PCA:4,5/W276:1
 filename:	o6_IREDBOND_PCA_4,5_W276_1_apo1.data
 END:DATA
+DATA
+Type:	MD
+status:	no_opt
+short_file:	apo1.xtc
+title:	n12:MD:full_traj:apo1
+additional_info:	full_traj
+filename:	n12_MD_full_traj_apo1.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	no_opt
+short_file:	apo1.xtc
+title:	n12:IREDMODE:full_traj:apo1
+additional_info:	full_traj
+filename:	n12_IREDMODE_full_traj_apo1.data
+END:DATA
+DATA
+Type:	MD
+status:	proc
+short_file:	apo1.xtc
+title:	p7:MD:full_traj:apo1
+additional_info:	full_traj
+filename:	p7_MD_full_traj_apo1.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	proc
+short_file:	apo1.xtc
+title:	p7:IREDMODE:full_traj:apo1
+additional_info:	full_traj
+filename:	p7_IREDMODE_full_traj_apo1.data
+END:DATA
+DATA
+Type:	MD
+status:	opt_fit
+short_file:	apo1.xtc
+title:	o7:MD:full_traj:apo1
+additional_info:	full_traj
+filename:	o7_MD_full_traj_apo1.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	opt_fit
+short_file:	apo1.xtc
+title:	o7:IREDMODE:full_traj:apo1
+additional_info:	full_traj
+filename:	o7_IREDMODE_full_traj_apo1.data
+END:DATA
+DATA
+Type:	iREDbond
+status:	opt_fit
+short_file:	apo1.xtc
+title:	o7:IREDBOND:full_traj:apo1
+additional_info:	full_traj
+filename:	o7_IREDBOND_full_traj_apo1.data
+END:DATA
