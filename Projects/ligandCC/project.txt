@@ -30,3 +30,35 @@ title:	o7:IREDBOND:rk1:run1.proc
 additional_info:	rk1
 filename:	o7_IREDBOND_rk1_run1_proc.data
 END:DATA
+DATA
+Type:	iREDmode
+status:	no_opt
+short_file:	run1.proc.xtc
+title:	n12:IREDMODE:rk1:run1.proc
+additional_info:	rk1
+filename:	n12_IREDMODE_rk1_run1_proc1.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	proc
+short_file:	run1.proc.xtc
+title:	p7:IREDMODE:rk1:run1.proc
+additional_info:	rk1
+filename:	p7_IREDMODE_rk1_run1_proc1.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	opt_fit
+short_file:	run1.proc.xtc
+title:	o7:IREDMODE:rk1:run1.proc
+additional_info:	rk1
+filename:	o7_IREDMODE_rk1_run1_proc1.data
+END:DATA
+DATA
+Type:	iREDbond
+status:	opt_fit
+short_file:	run1.proc.xtc
+title:	o7:IREDBOND:rk1:run1.proc
+additional_info:	rk1
+filename:	o7_IREDBOND_rk1_run1_proc1.data
+END:DATA

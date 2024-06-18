@@ -15,3 +15,5 @@ select=pyDR.MolSelect(topo,trajs,project=proj)
 select.select_bond('N')
 
 pyDR.md2iRED(select,rank=1).iRED2data()
+
+proj1=pyDR.Project('Projects/BB_PCA_states')['iREDbond']
