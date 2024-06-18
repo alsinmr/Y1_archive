@@ -1,0 +1,4 @@
+n12_IREDMODE_rk1_run1_proc.data:Y1R_NPY_ts0:/Users/albertsmith/Documents/GitHub/Y1_archive/Projects/ligandCC/scratch/Y1R_NPY_ts0.pdb
+p7_IREDMODE_rk1_run1_proc.data:Y1R_NPY_ts0:/Users/albertsmith/Documents/GitHub/Y1_archive/Projects/ligandCC/scratch/Y1R_NPY_ts0.pdb
+o7_IREDMODE_rk1_run1_proc.data:Y1R_NPY_ts0:/Users/albertsmith/Documents/GitHub/Y1_archive/Projects/ligandCC/scratch/Y1R_NPY_ts0.pdb
+o7_IREDBOND_rk1_run1_proc.data:Y1R_NPY_ts0:/Users/albertsmith/Documents/GitHub/Y1_archive/Projects/ligandCC/scratch/Y1R_NPY_ts0.pdb

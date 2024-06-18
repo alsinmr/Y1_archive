@@ -238,8 +238,8 @@ d26a=np.sqrt(((a2.positions.mean(0)-a6.positions.mean(0))**2).sum())
 
 
 
-titles=['PCA:1,2/W276:2','PCA:1,2/W276:3','PCA:0/W276:1','PCA:3/W276:1,2','PCA:5/W276:1']
-t0=np.array([9400,20000,36000,44000,59318])
+titles=['PCA:1,2/W276:2','PCA:1,2/W276:3','PCA:0/W276:1','PCA:3/W276:1,2','PCA:5/W276:1','PCA:1/W276:2']
+t0=np.array([9400,20000,36000,44000,59318,14000])
 tf=t0+6000
 
 #Plot where we analyze
@@ -298,7 +298,7 @@ proj1['opt_fit']['iREDmode'].modes2bonds()
 proj1.save()
 
 proj2=pyDR.Project('Projects/BB_PCA_states',create=True)
-titles=['PCA:0,2/W276:2','PCA:0,2/W276:3','PCA:1/W276:1','PCA:3/W276:1,2','PCA:4,5/W276:1']
+titles=['PCA:1,2/W276:2','PCA:1,2/W276:3','PCA:0/W276:1','PCA:3/W276:1,2','PCA:4,5/W276:1','PCA:1/W276:2']
 t0=np.array([9400,20000,36000,44000,59318])
 tf=t0+6000
 
