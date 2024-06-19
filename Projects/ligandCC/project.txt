@@ -1,64 +1,128 @@
 DATA
 Type:	iREDmode
 status:	no_opt
-short_file:	run1.proc.xtc
-title:	n12:IREDMODE:rk1:run1.proc
-additional_info:	rk1
+short_file:	run1.proc.xtc'
+title:	n12:IREDMODE:npy:run1.proc
+additional_info:	npy
 filename:	n12_IREDMODE_rk1_run1_proc.data
 END:DATA
 DATA
 Type:	iREDmode
 status:	proc
-short_file:	run1.proc.xtc
-title:	p7:IREDMODE:rk1:run1.proc
-additional_info:	rk1
+short_file:	run1.proc.xtc'
+title:	p7:IREDMODE:npy:run1.proc
+additional_info:	npy
 filename:	p7_IREDMODE_rk1_run1_proc.data
 END:DATA
 DATA
 Type:	iREDmode
 status:	opt_fit
-short_file:	run1.proc.xtc
-title:	o7:IREDMODE:rk1:run1.proc
-additional_info:	rk1
+short_file:	run1.proc.xtc'
+title:	o7:IREDMODE:npy:run1.proc
+additional_info:	npy
 filename:	o7_IREDMODE_rk1_run1_proc.data
 END:DATA
 DATA
 Type:	iREDbond
 status:	opt_fit
-short_file:	run1.proc.xtc
-title:	o7:IREDBOND:rk1:run1.proc
-additional_info:	rk1
+short_file:	run1.proc.xtc'
+title:	o7:IREDBOND:npy:run1.proc
+additional_info:	npy
 filename:	o7_IREDBOND_rk1_run1_proc.data
 END:DATA
 DATA
 Type:	iREDmode
 status:	no_opt
-short_file:	run1.proc.xtc
-title:	n12:IREDMODE:rk1:run1.proc
-additional_info:	rk1
+short_file:	run1.proc.xtc'
+title:	n12:IREDMODE:npy_Gi:run1.proc
+additional_info:	npy_Gi
 filename:	n12_IREDMODE_rk1_run1_proc1.data
 END:DATA
 DATA
 Type:	iREDmode
 status:	proc
-short_file:	run1.proc.xtc
-title:	p7:IREDMODE:rk1:run1.proc
-additional_info:	rk1
+short_file:	run1.proc.xtc'
+title:	p7:IREDMODE:npy_Gi:run1.proc
+additional_info:	npy_Gi
 filename:	p7_IREDMODE_rk1_run1_proc1.data
 END:DATA
 DATA
 Type:	iREDmode
 status:	opt_fit
-short_file:	run1.proc.xtc
-title:	o7:IREDMODE:rk1:run1.proc
-additional_info:	rk1
+short_file:	run1.proc.xtc'
+title:	o7:IREDMODE:npy_Gi:run1.proc
+additional_info:	npy_Gi
 filename:	o7_IREDMODE_rk1_run1_proc1.data
 END:DATA
 DATA
 Type:	iREDbond
 status:	opt_fit
-short_file:	run1.proc.xtc
-title:	o7:IREDBOND:rk1:run1.proc
-additional_info:	rk1
+short_file:	run1.proc.xtc'"
+title:	o7:IREDBOND:npy_Gi:run1.proc
+additional_info:	npy_Gi
 filename:	o7_IREDBOND_rk1_run1_proc1.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	no_opt
+short_file:	run1.proc.xtc
+title:	n12:IREDMODE:SC_npy:run1.proc
+additional_info:	SC_npy
+filename:	n12_IREDMODE_SC_npy_run1_proc.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	proc
+short_file:	run1.proc.xtc
+title:	p7:IREDMODE:SC_npy:run1.proc
+additional_info:	SC_npy
+filename:	p7_IREDMODE_SC_npy_run1_proc.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	opt_fit
+short_file:	run1.proc.xtc
+title:	o7:IREDMODE:SC_npy:run1.proc
+additional_info:	SC_npy
+filename:	o7_IREDMODE_SC_npy_run1_proc.data
+END:DATA
+DATA
+Type:	iREDbond
+status:	opt_fit
+short_file:	run1.proc.xtc
+title:	o7:IREDBOND:SC_npy:run1.proc
+additional_info:	SC_npy
+filename:	o7_IREDBOND_SC_npy_run1_proc.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	no_opt
+short_file:	run1.proc.xtc
+title:	n12:IREDMODE:SC_npy_Gi:run1.proc
+additional_info:	SC_npy_Gi
+filename:	n12_IREDMODE_SC_npy_Gi_run1_proc.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	proc
+short_file:	run1.proc.xtc
+title:	p7:IREDMODE:SC_npy_Gi:run1.proc
+additional_info:	SC_npy_Gi
+filename:	p7_IREDMODE_SC_npy_Gi_run1_proc.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	opt_fit
+short_file:	run1.proc.xtc
+title:	o7:IREDMODE:SC_npy_Gi:run1.proc
+additional_info:	SC_npy_Gi
+filename:	o7_IREDMODE_SC_npy_Gi_run1_proc.data
+END:DATA
+DATA
+Type:	iREDbond
+status:	opt_fit
+short_file:	run1.proc.xtc
+title:	o7:IREDBOND:SC_npy_Gi:run1.proc
+additional_info:	SC_npy_Gi
+filename:	o7_IREDBOND_SC_npy_Gi_run1_proc.data
 END:DATA
