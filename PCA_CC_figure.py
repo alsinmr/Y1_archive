@@ -89,3 +89,9 @@ fig=ax.figure
 fig.set_size_inches([5.15,4.2])
 fig.tight_layout()
 fig.savefig(os.path.join(folder,'PCA_v_W276_percent.pdf'))
+
+#%% Compare CC
+ax=ECC.plotCCpca()
+i=ECC.resids==276
+ax.plot(ECC.CC[i].squeeze())
+ax.set_xticks(np.arange(0,len(i),5))
