@@ -46,7 +46,7 @@ fig.tight_layout()
 
 
 
-#%% Plot the time-dependence of the PCA cluster
+#%% Plot the time-dependence of the PCA clustering
 ax=plt.subplots()[1]
 
 ax.set_ylim([-.5,2.5])
