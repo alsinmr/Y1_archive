@@ -1,0 +1,344 @@
+DATA
+Type:	MD
+status:	no_opt
+short_file:	run3.proc.xtc
+title:	n10:MD:cluster0_rep0:run3.proc
+additional_info:	cluster0_rep0
+filename:	n10_MD_cluster0_rep0_run3_proc.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	no_opt
+short_file:	run3.proc.xtc
+title:	n10:IREDMODE:cluster0_rep0:run3.proc
+additional_info:	cluster0_rep0
+filename:	n10_IREDMODE_cluster0_rep0_run3_proc.data
+END:DATA
+DATA
+Type:	MD
+status:	no_opt
+short_file:	run2.proc.xtc
+title:	n10:MD:cluster1_rep0:run2.proc
+additional_info:	cluster1_rep0
+filename:	n10_MD_cluster1_rep0_run2_proc.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	no_opt
+short_file:	run2.proc.xtc
+title:	n10:IREDMODE:cluster1_rep0:run2.proc
+additional_info:	cluster1_rep0
+filename:	n10_IREDMODE_cluster1_rep0_run2_proc.data
+END:DATA
+DATA
+Type:	MD
+status:	no_opt
+short_file:	run2.proc.xtc
+title:	n10:MD:cluster1_rep1:run2.proc
+additional_info:	cluster1_rep1
+filename:	n10_MD_cluster1_rep1_run2_proc.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	no_opt
+short_file:	run2.proc.xtc
+title:	n10:IREDMODE:cluster1_rep1:run2.proc
+additional_info:	cluster1_rep1
+filename:	n10_IREDMODE_cluster1_rep1_run2_proc.data
+END:DATA
+DATA
+Type:	MD
+status:	no_opt
+short_file:	run3.proc.xtc
+title:	n10:MD:cluster2_rep0:run3.proc
+additional_info:	cluster2_rep0
+filename:	n10_MD_cluster2_rep0_run3_proc.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	no_opt
+short_file:	run3.proc.xtc
+title:	n10:IREDMODE:cluster2_rep0:run3.proc
+additional_info:	cluster2_rep0
+filename:	n10_IREDMODE_cluster2_rep0_run3_proc.data
+END:DATA
+DATA
+Type:	MD
+status:	no_opt
+short_file:	run1.proc.xtc
+title:	n10:MD:cluster3_rep0:run1.proc
+additional_info:	cluster3_rep0
+filename:	n10_MD_cluster3_rep0_run1_proc.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	no_opt
+short_file:	run1.proc.xtc
+title:	n10:IREDMODE:cluster3_rep0:run1.proc
+additional_info:	cluster3_rep0
+filename:	n10_IREDMODE_cluster3_rep0_run1_proc.data
+END:DATA
+DATA
+Type:	MD
+status:	proc
+short_file:	run3.proc.xtc
+title:	p6:MD:cluster0_rep0:run3.proc
+additional_info:	cluster0_rep0
+filename:	p6_MD_cluster0_rep0_run3_proc.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	proc
+short_file:	run3.proc.xtc
+title:	p6:IREDMODE:cluster0_rep0:run3.proc
+additional_info:	cluster0_rep0
+filename:	p6_IREDMODE_cluster0_rep0_run3_proc.data
+END:DATA
+DATA
+Type:	MD
+status:	proc
+short_file:	run2.proc.xtc
+title:	p6:MD:cluster1_rep0:run2.proc
+additional_info:	cluster1_rep0
+filename:	p6_MD_cluster1_rep0_run2_proc.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	proc
+short_file:	run2.proc.xtc
+title:	p6:IREDMODE:cluster1_rep0:run2.proc
+additional_info:	cluster1_rep0
+filename:	p6_IREDMODE_cluster1_rep0_run2_proc.data
+END:DATA
+DATA
+Type:	MD
+status:	proc
+short_file:	run2.proc.xtc
+title:	p6:MD:cluster1_rep1:run2.proc
+additional_info:	cluster1_rep1
+filename:	p6_MD_cluster1_rep1_run2_proc.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	proc
+short_file:	run2.proc.xtc
+title:	p6:IREDMODE:cluster1_rep1:run2.proc
+additional_info:	cluster1_rep1
+filename:	p6_IREDMODE_cluster1_rep1_run2_proc.data
+END:DATA
+DATA
+Type:	MD
+status:	proc
+short_file:	run3.proc.xtc
+title:	p6:MD:cluster2_rep0:run3.proc
+additional_info:	cluster2_rep0
+filename:	p6_MD_cluster2_rep0_run3_proc.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	proc
+short_file:	run3.proc.xtc
+title:	p6:IREDMODE:cluster2_rep0:run3.proc
+additional_info:	cluster2_rep0
+filename:	p6_IREDMODE_cluster2_rep0_run3_proc.data
+END:DATA
+DATA
+Type:	MD
+status:	proc
+short_file:	run1.proc.xtc
+title:	p6:MD:cluster3_rep0:run1.proc
+additional_info:	cluster3_rep0
+filename:	p6_MD_cluster3_rep0_run1_proc.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	proc
+short_file:	run1.proc.xtc
+title:	p6:IREDMODE:cluster3_rep0:run1.proc
+additional_info:	cluster3_rep0
+filename:	p6_IREDMODE_cluster3_rep0_run1_proc.data
+END:DATA
+DATA
+Type:	MD
+status:	opt_fit
+short_file:	run3.proc.xtc
+title:	o6:MD:cluster0_rep0:run3.proc
+additional_info:	cluster0_rep0
+filename:	o6_MD_cluster0_rep0_run3_proc.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	opt_fit
+short_file:	run3.proc.xtc
+title:	o6:IREDMODE:cluster0_rep0:run3.proc
+additional_info:	cluster0_rep0
+filename:	o6_IREDMODE_cluster0_rep0_run3_proc.data
+END:DATA
+DATA
+Type:	MD
+status:	opt_fit
+short_file:	run2.proc.xtc
+title:	o6:MD:cluster1_rep0:run2.proc
+additional_info:	cluster1_rep0
+filename:	o6_MD_cluster1_rep0_run2_proc.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	opt_fit
+short_file:	run2.proc.xtc
+title:	o6:IREDMODE:cluster1_rep0:run2.proc
+additional_info:	cluster1_rep0
+filename:	o6_IREDMODE_cluster1_rep0_run2_proc.data
+END:DATA
+DATA
+Type:	MD
+status:	opt_fit
+short_file:	run2.proc.xtc
+title:	o6:MD:cluster1_rep1:run2.proc
+additional_info:	cluster1_rep1
+filename:	o6_MD_cluster1_rep1_run2_proc.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	opt_fit
+short_file:	run2.proc.xtc
+title:	o6:IREDMODE:cluster1_rep1:run2.proc
+additional_info:	cluster1_rep1
+filename:	o6_IREDMODE_cluster1_rep1_run2_proc.data
+END:DATA
+DATA
+Type:	MD
+status:	opt_fit
+short_file:	run3.proc.xtc
+title:	o6:MD:cluster2_rep0:run3.proc
+additional_info:	cluster2_rep0
+filename:	o6_MD_cluster2_rep0_run3_proc.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	opt_fit
+short_file:	run3.proc.xtc
+title:	o6:IREDMODE:cluster2_rep0:run3.proc
+additional_info:	cluster2_rep0
+filename:	o6_IREDMODE_cluster2_rep0_run3_proc.data
+END:DATA
+DATA
+Type:	MD
+status:	opt_fit
+short_file:	run1.proc.xtc
+title:	o6:MD:cluster3_rep0:run1.proc
+additional_info:	cluster3_rep0
+filename:	o6_MD_cluster3_rep0_run1_proc.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	opt_fit
+short_file:	run1.proc.xtc
+title:	o6:IREDMODE:cluster3_rep0:run1.proc
+additional_info:	cluster3_rep0
+filename:	o6_IREDMODE_cluster3_rep0_run1_proc.data
+END:DATA
+DATA
+Type:	iREDbond
+status:	opt_fit
+short_file:	run3.proc.xtc
+title:	o6:IREDBOND:cluster0_rep0:run3.proc
+additional_info:	cluster0_rep0
+filename:	o6_IREDBOND_cluster0_rep0_run3_proc.data
+END:DATA
+DATA
+Type:	iREDbond
+status:	opt_fit
+short_file:	run2.proc.xtc
+title:	o6:IREDBOND:cluster1_rep0:run2.proc
+additional_info:	cluster1_rep0
+filename:	o6_IREDBOND_cluster1_rep0_run2_proc.data
+END:DATA
+DATA
+Type:	iREDbond
+status:	opt_fit
+short_file:	run2.proc.xtc
+title:	o6:IREDBOND:cluster1_rep1:run2.proc
+additional_info:	cluster1_rep1
+filename:	o6_IREDBOND_cluster1_rep1_run2_proc.data
+END:DATA
+DATA
+Type:	iREDbond
+status:	opt_fit
+short_file:	run3.proc.xtc
+title:	o6:IREDBOND:cluster2_rep0:run3.proc
+additional_info:	cluster2_rep0
+filename:	o6_IREDBOND_cluster2_rep0_run3_proc.data
+END:DATA
+DATA
+Type:	iREDbond
+status:	opt_fit
+short_file:	run1.proc.xtc
+title:	o6:IREDBOND:cluster3_rep0:run1.proc
+additional_info:	cluster3_rep0
+filename:	o6_IREDBOND_cluster3_rep0_run1_proc.data
+END:DATA
+DATA
+Type:	MD
+status:	opt_fit
+short_file:	run3.proc.xtc
+title:	o6:MD:AvOb_cluster0:run3.proc
+additional_info:	AvOb_cluster0
+filename:	o6_MD_cluster0_rep0_run3_proc1.data
+END:DATA
+DATA
+Type:	MD
+status:	opt_fit
+short_file:	run2.proc.xtc
+title:	o6:MD:AvOb_cluster1:run2.proc
+additional_info:	AvOb_cluster1
+filename:	o6_MD_cluster1_rep0_run2_proc1.data
+END:DATA
+DATA
+Type:	MD
+status:	opt_fit
+short_file:	run3.proc.xtc
+title:	o6:MD:AvOb_cluster2:run3.proc
+additional_info:	AvOb_cluster2
+filename:	o6_MD_cluster2_rep0_run3_proc1.data
+END:DATA
+DATA
+Type:	MD
+status:	opt_fit
+short_file:	run1.proc.xtc
+title:	o6:MD:AvOb_cluster3:run1.proc
+additional_info:	AvOb_cluster3
+filename:	o6_MD_cluster3_rep0_run1_proc1.data
+END:DATA
+DATA
+Type:	iREDbond
+status:	opt_fit
+short_file:	run3.proc.xtc
+title:	o6:IREDBOND:AvOb_cluster0:run3.proc
+additional_info:	AvOb_cluster0
+filename:	o6_IREDBOND_cluster0_rep0_run3_proc1.data
+END:DATA
+DATA
+Type:	iREDbond
+status:	opt_fit
+short_file:	run2.proc.xtc
+title:	o6:IREDBOND:AvOb_cluster1:run2.proc
+additional_info:	AvOb_cluster1
+filename:	o6_IREDBOND_cluster1_rep0_run2_proc1.data
+END:DATA
+DATA
+Type:	iREDbond
+status:	opt_fit
+short_file:	run3.proc.xtc
+title:	o6:IREDBOND:AvOb_cluster2:run3.proc
+additional_info:	AvOb_cluster2
+filename:	o6_IREDBOND_cluster2_rep0_run3_proc1.data
+END:DATA
+DATA
+Type:	iREDbond
+status:	opt_fit
+short_file:	run1.proc.xtc
+title:	o6:IREDBOND:AvOb_cluster3:run1.proc
+additional_info:	AvOb_cluster3
+filename:	o6_IREDBOND_cluster3_rep0_run1_proc1.data
+END:DATA

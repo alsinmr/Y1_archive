@@ -1,0 +1,168 @@
+DATA
+Type:	MD
+status:	no_opt
+short_file:	run1.proc.xtc
+title:	n10:MD:state0:run1.proc
+additional_info:	state0
+filename:	n10_MD_state0_run1_proc.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	no_opt
+short_file:	run1.proc.xtc
+title:	n10:IREDMODE:state0:run1.proc
+additional_info:	state0
+filename:	n10_IREDMODE_state0_run1_proc.data
+END:DATA
+DATA
+Type:	MD
+status:	no_opt
+short_file:	run1.proc.xtc
+title:	n10:MD:state1:run1.proc
+additional_info:	state1
+filename:	n10_MD_state1_run1_proc.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	no_opt
+short_file:	run1.proc.xtc
+title:	n10:IREDMODE:state1:run1.proc
+additional_info:	state1
+filename:	n10_IREDMODE_state1_run1_proc.data
+END:DATA
+DATA
+Type:	MD
+status:	no_opt
+short_file:	run1.proc.xtc
+title:	n10:MD:state2:run1.proc
+additional_info:	state2
+filename:	n10_MD_state2_run1_proc.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	no_opt
+short_file:	run1.proc.xtc
+title:	n10:IREDMODE:state2:run1.proc
+additional_info:	state2
+filename:	n10_IREDMODE_state2_run1_proc.data
+END:DATA
+DATA
+Type:	MD
+status:	proc
+short_file:	run1.proc.xtc
+title:	p6:MD:state0:run1.proc
+additional_info:	state0
+filename:	p6_MD_state0_run1_proc.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	proc
+short_file:	run1.proc.xtc
+title:	p6:IREDMODE:state0:run1.proc
+additional_info:	state0
+filename:	p6_IREDMODE_state0_run1_proc.data
+END:DATA
+DATA
+Type:	MD
+status:	proc
+short_file:	run1.proc.xtc
+title:	p6:MD:state1:run1.proc
+additional_info:	state1
+filename:	p6_MD_state1_run1_proc.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	proc
+short_file:	run1.proc.xtc
+title:	p6:IREDMODE:state1:run1.proc
+additional_info:	state1
+filename:	p6_IREDMODE_state1_run1_proc.data
+END:DATA
+DATA
+Type:	MD
+status:	proc
+short_file:	run1.proc.xtc
+title:	p6:MD:state2:run1.proc
+additional_info:	state2
+filename:	p6_MD_state2_run1_proc.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	proc
+short_file:	run1.proc.xtc
+title:	p6:IREDMODE:state2:run1.proc
+additional_info:	state2
+filename:	p6_IREDMODE_state2_run1_proc.data
+END:DATA
+DATA
+Type:	MD
+status:	opt_fit
+short_file:	run1.proc.xtc
+title:	o6:MD:state0:run1.proc
+additional_info:	state0
+filename:	o6_MD_state0_run1_proc.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	opt_fit
+short_file:	run1.proc.xtc
+title:	o6:IREDMODE:state0:run1.proc
+additional_info:	state0
+filename:	o6_IREDMODE_state0_run1_proc.data
+END:DATA
+DATA
+Type:	MD
+status:	opt_fit
+short_file:	run1.proc.xtc
+title:	o6:MD:state1:run1.proc
+additional_info:	state1
+filename:	o6_MD_state1_run1_proc.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	opt_fit
+short_file:	run1.proc.xtc
+title:	o6:IREDMODE:state1:run1.proc
+additional_info:	state1
+filename:	o6_IREDMODE_state1_run1_proc.data
+END:DATA
+DATA
+Type:	MD
+status:	opt_fit
+short_file:	run1.proc.xtc
+title:	o6:MD:state2:run1.proc
+additional_info:	state2
+filename:	o6_MD_state2_run1_proc.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	opt_fit
+short_file:	run1.proc.xtc
+title:	o6:IREDMODE:state2:run1.proc
+additional_info:	state2
+filename:	o6_IREDMODE_state2_run1_proc.data
+END:DATA
+DATA
+Type:	iREDbond
+status:	opt_fit
+short_file:	run1.proc.xtc
+title:	o6:IREDBOND:state0:run1.proc
+additional_info:	state0
+filename:	o6_IREDBOND_state0_run1_proc.data
+END:DATA
+DATA
+Type:	iREDbond
+status:	opt_fit
+short_file:	run1.proc.xtc
+title:	o6:IREDBOND:state1:run1.proc
+additional_info:	state1
+filename:	o6_IREDBOND_state1_run1_proc.data
+END:DATA
+DATA
+Type:	iREDbond
+status:	opt_fit
+short_file:	run1.proc.xtc
+title:	o6:IREDBOND:state2:run1.proc
+additional_info:	state2
+filename:	o6_IREDBOND_state2_run1_proc.data
+END:DATA

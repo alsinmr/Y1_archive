@@ -1,0 +1,1016 @@
+DATA
+Type:	MD
+status:	no_opt
+short_file:	apo1.xtc
+title:	n10:MD:apo_rep0:apo1
+additional_info:	apo_rep0
+filename:	n10_MD_apo_rep0_apo1.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	no_opt
+short_file:	apo1.xtc
+title:	n10:IREDMODE:apo_rep0:apo1
+additional_info:	apo_rep0
+filename:	n10_IREDMODE_apo_rep0_apo1.data
+END:DATA
+DATA
+Type:	MD
+status:	no_opt
+short_file:	apo2.xtc
+title:	n10:MD:apo_rep1:apo2
+additional_info:	apo_rep1
+filename:	n10_MD_apo_rep1_apo2.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	no_opt
+short_file:	apo2.xtc
+title:	n10:IREDMODE:apo_rep1:apo2
+additional_info:	apo_rep1
+filename:	n10_IREDMODE_apo_rep1_apo2.data
+END:DATA
+DATA
+Type:	MD
+status:	no_opt
+short_file:	apo3.xtc
+title:	n10:MD:apo_rep2:apo3
+additional_info:	apo_rep2
+filename:	n10_MD_apo_rep2_apo3.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	no_opt
+short_file:	apo3.xtc
+title:	n10:IREDMODE:apo_rep2:apo3
+additional_info:	apo_rep2
+filename:	n10_IREDMODE_apo_rep2_apo3.data
+END:DATA
+DATA
+Type:	MD
+status:	no_opt
+short_file:	apo1.xtc
+title:	n10:MD:apo_rep3:apo1
+additional_info:	apo_rep3
+filename:	n10_MD_apo_rep3_apo1.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	no_opt
+short_file:	apo1.xtc
+title:	n10:IREDMODE:apo_rep3:apo1
+additional_info:	apo_rep3
+filename:	n10_IREDMODE_apo_rep3_apo1.data
+END:DATA
+DATA
+Type:	MD
+status:	no_opt
+short_file:	apo2.xtc
+title:	n10:MD:apo_rep4:apo2
+additional_info:	apo_rep4
+filename:	n10_MD_apo_rep4_apo2.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	no_opt
+short_file:	apo2.xtc
+title:	n10:IREDMODE:apo_rep4:apo2
+additional_info:	apo_rep4
+filename:	n10_IREDMODE_apo_rep4_apo2.data
+END:DATA
+DATA
+Type:	MD
+status:	no_opt
+short_file:	run1.proc.xtc
+title:	n10:MD:NPY_rep0:run1.proc
+additional_info:	NPY_rep0
+filename:	n10_MD_NPY_rep0_run1_proc.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	no_opt
+short_file:	run1.proc.xtc
+title:	n10:IREDMODE:NPY_rep0:run1.proc
+additional_info:	NPY_rep0
+filename:	n10_IREDMODE_NPY_rep0_run1_proc.data
+END:DATA
+DATA
+Type:	MD
+status:	no_opt
+short_file:	run2.proc.xtc
+title:	n10:MD:NPY_rep1:run2.proc
+additional_info:	NPY_rep1
+filename:	n10_MD_NPY_rep1_run2_proc.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	no_opt
+short_file:	run2.proc.xtc
+title:	n10:IREDMODE:NPY_rep1:run2.proc
+additional_info:	NPY_rep1
+filename:	n10_IREDMODE_NPY_rep1_run2_proc.data
+END:DATA
+DATA
+Type:	MD
+status:	no_opt
+short_file:	run3.proc.xtc
+title:	n10:MD:NPY_rep2:run3.proc
+additional_info:	NPY_rep2
+filename:	n10_MD_NPY_rep2_run3_proc.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	no_opt
+short_file:	run3.proc.xtc
+title:	n10:IREDMODE:NPY_rep2:run3.proc
+additional_info:	NPY_rep2
+filename:	n10_IREDMODE_NPY_rep2_run3_proc.data
+END:DATA
+DATA
+Type:	MD
+status:	no_opt
+short_file:	run1.xtc
+title:	n10:MD:anta_rep0:run1
+additional_info:	anta_rep0
+filename:	n10_MD_anta_rep0_run1.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	no_opt
+short_file:	run1.xtc
+title:	n10:IREDMODE:anta_rep0:run1
+additional_info:	anta_rep0
+filename:	n10_IREDMODE_anta_rep0_run1.data
+END:DATA
+DATA
+Type:	MD
+status:	no_opt
+short_file:	run2.xtc
+title:	n10:MD:anta_rep1:run2
+additional_info:	anta_rep1
+filename:	n10_MD_anta_rep1_run2.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	no_opt
+short_file:	run2.xtc
+title:	n10:IREDMODE:anta_rep1:run2
+additional_info:	anta_rep1
+filename:	n10_IREDMODE_anta_rep1_run2.data
+END:DATA
+DATA
+Type:	MD
+status:	no_opt
+short_file:	run3.xtc
+title:	n10:MD:anta_rep2:run3
+additional_info:	anta_rep2
+filename:	n10_MD_anta_rep2_run3.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	no_opt
+short_file:	run3.xtc
+title:	n10:IREDMODE:anta_rep2:run3
+additional_info:	anta_rep2
+filename:	n10_IREDMODE_anta_rep2_run3.data
+END:DATA
+DATA
+Type:	MD
+status:	no_opt
+short_file:	run1.xtc
+title:	n10:MD:anta_rep3:run1
+additional_info:	anta_rep3
+filename:	n10_MD_anta_rep3_run1.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	no_opt
+short_file:	run1.xtc
+title:	n10:IREDMODE:anta_rep3:run1
+additional_info:	anta_rep3
+filename:	n10_IREDMODE_anta_rep3_run1.data
+END:DATA
+DATA
+Type:	MD
+status:	no_opt
+short_file:	run2.xtc
+title:	n10:MD:anta_rep4:run2
+additional_info:	anta_rep4
+filename:	n10_MD_anta_rep4_run2.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	no_opt
+short_file:	run2.xtc
+title:	n10:IREDMODE:anta_rep4:run2
+additional_info:	anta_rep4
+filename:	n10_IREDMODE_anta_rep4_run2.data
+END:DATA
+DATA
+Type:	MD
+status:	no_opt
+short_file:	run3.xtc
+title:	n10:MD:anta_rep5:run3
+additional_info:	anta_rep5
+filename:	n10_MD_anta_rep5_run3.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	no_opt
+short_file:	run3.xtc
+title:	n10:IREDMODE:anta_rep5:run3
+additional_info:	anta_rep5
+filename:	n10_IREDMODE_anta_rep5_run3.data
+END:DATA
+DATA
+Type:	MD
+status:	no_opt
+short_file:	run1.proc.xtc
+title:	n10:MD:Gi_rep0:run1.proc
+additional_info:	Gi_rep0
+filename:	n10_MD_Gi_rep0_run1_proc.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	no_opt
+short_file:	run1.proc.xtc
+title:	n10:IREDMODE:Gi_rep0:run1.proc
+additional_info:	Gi_rep0
+filename:	n10_IREDMODE_Gi_rep0_run1_proc.data
+END:DATA
+DATA
+Type:	MD
+status:	no_opt
+short_file:	run2.proc.xtc
+title:	n10:MD:Gi_rep1:run2.proc
+additional_info:	Gi_rep1
+filename:	n10_MD_Gi_rep1_run2_proc.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	no_opt
+short_file:	run2.proc.xtc
+title:	n10:IREDMODE:Gi_rep1:run2.proc
+additional_info:	Gi_rep1
+filename:	n10_IREDMODE_Gi_rep1_run2_proc.data
+END:DATA
+DATA
+Type:	MD
+status:	no_opt
+short_file:	run3.proc.xtc
+title:	n10:MD:Gi_rep2:run3.proc
+additional_info:	Gi_rep2
+filename:	n10_MD_Gi_rep2_run3_proc.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	no_opt
+short_file:	run3.proc.xtc
+title:	n10:IREDMODE:Gi_rep2:run3.proc
+additional_info:	Gi_rep2
+filename:	n10_IREDMODE_Gi_rep2_run3_proc.data
+END:DATA
+DATA
+Type:	MD
+status:	proc
+short_file:	apo1.xtc
+title:	p6:MD:apo_rep0:apo1
+additional_info:	apo_rep0
+filename:	p6_MD_apo_rep0_apo1.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	proc
+short_file:	apo1.xtc
+title:	p6:IREDMODE:apo_rep0:apo1
+additional_info:	apo_rep0
+filename:	p6_IREDMODE_apo_rep0_apo1.data
+END:DATA
+DATA
+Type:	MD
+status:	proc
+short_file:	apo2.xtc
+title:	p6:MD:apo_rep1:apo2
+additional_info:	apo_rep1
+filename:	p6_MD_apo_rep1_apo2.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	proc
+short_file:	apo2.xtc
+title:	p6:IREDMODE:apo_rep1:apo2
+additional_info:	apo_rep1
+filename:	p6_IREDMODE_apo_rep1_apo2.data
+END:DATA
+DATA
+Type:	MD
+status:	proc
+short_file:	apo3.xtc
+title:	p6:MD:apo_rep2:apo3
+additional_info:	apo_rep2
+filename:	p6_MD_apo_rep2_apo3.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	proc
+short_file:	apo3.xtc
+title:	p6:IREDMODE:apo_rep2:apo3
+additional_info:	apo_rep2
+filename:	p6_IREDMODE_apo_rep2_apo3.data
+END:DATA
+DATA
+Type:	MD
+status:	proc
+short_file:	apo1.xtc
+title:	p6:MD:apo_rep3:apo1
+additional_info:	apo_rep3
+filename:	p6_MD_apo_rep3_apo1.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	proc
+short_file:	apo1.xtc
+title:	p6:IREDMODE:apo_rep3:apo1
+additional_info:	apo_rep3
+filename:	p6_IREDMODE_apo_rep3_apo1.data
+END:DATA
+DATA
+Type:	MD
+status:	proc
+short_file:	apo2.xtc
+title:	p6:MD:apo_rep4:apo2
+additional_info:	apo_rep4
+filename:	p6_MD_apo_rep4_apo2.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	proc
+short_file:	apo2.xtc
+title:	p6:IREDMODE:apo_rep4:apo2
+additional_info:	apo_rep4
+filename:	p6_IREDMODE_apo_rep4_apo2.data
+END:DATA
+DATA
+Type:	MD
+status:	proc
+short_file:	run1.proc.xtc
+title:	p6:MD:NPY_rep0:run1.proc
+additional_info:	NPY_rep0
+filename:	p6_MD_NPY_rep0_run1_proc.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	proc
+short_file:	run1.proc.xtc
+title:	p6:IREDMODE:NPY_rep0:run1.proc
+additional_info:	NPY_rep0
+filename:	p6_IREDMODE_NPY_rep0_run1_proc.data
+END:DATA
+DATA
+Type:	MD
+status:	proc
+short_file:	run2.proc.xtc
+title:	p6:MD:NPY_rep1:run2.proc
+additional_info:	NPY_rep1
+filename:	p6_MD_NPY_rep1_run2_proc.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	proc
+short_file:	run2.proc.xtc
+title:	p6:IREDMODE:NPY_rep1:run2.proc
+additional_info:	NPY_rep1
+filename:	p6_IREDMODE_NPY_rep1_run2_proc.data
+END:DATA
+DATA
+Type:	MD
+status:	proc
+short_file:	run3.proc.xtc
+title:	p6:MD:NPY_rep2:run3.proc
+additional_info:	NPY_rep2
+filename:	p6_MD_NPY_rep2_run3_proc.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	proc
+short_file:	run3.proc.xtc
+title:	p6:IREDMODE:NPY_rep2:run3.proc
+additional_info:	NPY_rep2
+filename:	p6_IREDMODE_NPY_rep2_run3_proc.data
+END:DATA
+DATA
+Type:	MD
+status:	proc
+short_file:	run1.xtc
+title:	p6:MD:anta_rep0:run1
+additional_info:	anta_rep0
+filename:	p6_MD_anta_rep0_run1.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	proc
+short_file:	run1.xtc
+title:	p6:IREDMODE:anta_rep0:run1
+additional_info:	anta_rep0
+filename:	p6_IREDMODE_anta_rep0_run1.data
+END:DATA
+DATA
+Type:	MD
+status:	proc
+short_file:	run2.xtc
+title:	p6:MD:anta_rep1:run2
+additional_info:	anta_rep1
+filename:	p6_MD_anta_rep1_run2.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	proc
+short_file:	run2.xtc
+title:	p6:IREDMODE:anta_rep1:run2
+additional_info:	anta_rep1
+filename:	p6_IREDMODE_anta_rep1_run2.data
+END:DATA
+DATA
+Type:	MD
+status:	proc
+short_file:	run3.xtc
+title:	p6:MD:anta_rep2:run3
+additional_info:	anta_rep2
+filename:	p6_MD_anta_rep2_run3.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	proc
+short_file:	run3.xtc
+title:	p6:IREDMODE:anta_rep2:run3
+additional_info:	anta_rep2
+filename:	p6_IREDMODE_anta_rep2_run3.data
+END:DATA
+DATA
+Type:	MD
+status:	proc
+short_file:	run1.xtc
+title:	p6:MD:anta_rep3:run1
+additional_info:	anta_rep3
+filename:	p6_MD_anta_rep3_run1.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	proc
+short_file:	run1.xtc
+title:	p6:IREDMODE:anta_rep3:run1
+additional_info:	anta_rep3
+filename:	p6_IREDMODE_anta_rep3_run1.data
+END:DATA
+DATA
+Type:	MD
+status:	proc
+short_file:	run2.xtc
+title:	p6:MD:anta_rep4:run2
+additional_info:	anta_rep4
+filename:	p6_MD_anta_rep4_run2.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	proc
+short_file:	run2.xtc
+title:	p6:IREDMODE:anta_rep4:run2
+additional_info:	anta_rep4
+filename:	p6_IREDMODE_anta_rep4_run2.data
+END:DATA
+DATA
+Type:	MD
+status:	proc
+short_file:	run3.xtc
+title:	p6:MD:anta_rep5:run3
+additional_info:	anta_rep5
+filename:	p6_MD_anta_rep5_run3.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	proc
+short_file:	run3.xtc
+title:	p6:IREDMODE:anta_rep5:run3
+additional_info:	anta_rep5
+filename:	p6_IREDMODE_anta_rep5_run3.data
+END:DATA
+DATA
+Type:	MD
+status:	proc
+short_file:	run1.proc.xtc
+title:	p6:MD:Gi_rep0:run1.proc
+additional_info:	Gi_rep0
+filename:	p6_MD_Gi_rep0_run1_proc.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	proc
+short_file:	run1.proc.xtc
+title:	p6:IREDMODE:Gi_rep0:run1.proc
+additional_info:	Gi_rep0
+filename:	p6_IREDMODE_Gi_rep0_run1_proc.data
+END:DATA
+DATA
+Type:	MD
+status:	proc
+short_file:	run2.proc.xtc
+title:	p6:MD:Gi_rep1:run2.proc
+additional_info:	Gi_rep1
+filename:	p6_MD_Gi_rep1_run2_proc.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	proc
+short_file:	run2.proc.xtc
+title:	p6:IREDMODE:Gi_rep1:run2.proc
+additional_info:	Gi_rep1
+filename:	p6_IREDMODE_Gi_rep1_run2_proc.data
+END:DATA
+DATA
+Type:	MD
+status:	proc
+short_file:	run3.proc.xtc
+title:	p6:MD:Gi_rep2:run3.proc
+additional_info:	Gi_rep2
+filename:	p6_MD_Gi_rep2_run3_proc.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	proc
+short_file:	run3.proc.xtc
+title:	p6:IREDMODE:Gi_rep2:run3.proc
+additional_info:	Gi_rep2
+filename:	p6_IREDMODE_Gi_rep2_run3_proc.data
+END:DATA
+DATA
+Type:	MD
+status:	opt_fit
+short_file:	apo1.xtc
+title:	o6:MD:apo_rep0:apo1
+additional_info:	apo_rep0
+filename:	o6_MD_apo_rep0_apo1.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	opt_fit
+short_file:	apo1.xtc
+title:	o6:IREDMODE:apo_rep0:apo1
+additional_info:	apo_rep0
+filename:	o6_IREDMODE_apo_rep0_apo1.data
+END:DATA
+DATA
+Type:	MD
+status:	opt_fit
+short_file:	apo2.xtc
+title:	o6:MD:apo_rep1:apo2
+additional_info:	apo_rep1
+filename:	o6_MD_apo_rep1_apo2.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	opt_fit
+short_file:	apo2.xtc
+title:	o6:IREDMODE:apo_rep1:apo2
+additional_info:	apo_rep1
+filename:	o6_IREDMODE_apo_rep1_apo2.data
+END:DATA
+DATA
+Type:	MD
+status:	opt_fit
+short_file:	apo3.xtc
+title:	o6:MD:apo_rep2:apo3
+additional_info:	apo_rep2
+filename:	o6_MD_apo_rep2_apo3.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	opt_fit
+short_file:	apo3.xtc
+title:	o6:IREDMODE:apo_rep2:apo3
+additional_info:	apo_rep2
+filename:	o6_IREDMODE_apo_rep2_apo3.data
+END:DATA
+DATA
+Type:	MD
+status:	opt_fit
+short_file:	apo1.xtc
+title:	o6:MD:apo_rep3:apo1
+additional_info:	apo_rep3
+filename:	o6_MD_apo_rep3_apo1.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	opt_fit
+short_file:	apo1.xtc
+title:	o6:IREDMODE:apo_rep3:apo1
+additional_info:	apo_rep3
+filename:	o6_IREDMODE_apo_rep3_apo1.data
+END:DATA
+DATA
+Type:	MD
+status:	opt_fit
+short_file:	apo2.xtc
+title:	o6:MD:apo_rep4:apo2
+additional_info:	apo_rep4
+filename:	o6_MD_apo_rep4_apo2.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	opt_fit
+short_file:	apo2.xtc
+title:	o6:IREDMODE:apo_rep4:apo2
+additional_info:	apo_rep4
+filename:	o6_IREDMODE_apo_rep4_apo2.data
+END:DATA
+DATA
+Type:	MD
+status:	opt_fit
+short_file:	run1.proc.xtc
+title:	o6:MD:NPY_rep0:run1.proc
+additional_info:	NPY_rep0
+filename:	o6_MD_NPY_rep0_run1_proc.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	opt_fit
+short_file:	run1.proc.xtc
+title:	o6:IREDMODE:NPY_rep0:run1.proc
+additional_info:	NPY_rep0
+filename:	o6_IREDMODE_NPY_rep0_run1_proc.data
+END:DATA
+DATA
+Type:	MD
+status:	opt_fit
+short_file:	run2.proc.xtc
+title:	o6:MD:NPY_rep1:run2.proc
+additional_info:	NPY_rep1
+filename:	o6_MD_NPY_rep1_run2_proc.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	opt_fit
+short_file:	run2.proc.xtc
+title:	o6:IREDMODE:NPY_rep1:run2.proc
+additional_info:	NPY_rep1
+filename:	o6_IREDMODE_NPY_rep1_run2_proc.data
+END:DATA
+DATA
+Type:	MD
+status:	opt_fit
+short_file:	run3.proc.xtc
+title:	o6:MD:NPY_rep2:run3.proc
+additional_info:	NPY_rep2
+filename:	o6_MD_NPY_rep2_run3_proc.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	opt_fit
+short_file:	run3.proc.xtc
+title:	o6:IREDMODE:NPY_rep2:run3.proc
+additional_info:	NPY_rep2
+filename:	o6_IREDMODE_NPY_rep2_run3_proc.data
+END:DATA
+DATA
+Type:	MD
+status:	opt_fit
+short_file:	run1.xtc
+title:	o6:MD:anta_rep0:run1
+additional_info:	anta_rep0
+filename:	o6_MD_anta_rep0_run1.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	opt_fit
+short_file:	run1.xtc
+title:	o6:IREDMODE:anta_rep0:run1
+additional_info:	anta_rep0
+filename:	o6_IREDMODE_anta_rep0_run1.data
+END:DATA
+DATA
+Type:	MD
+status:	opt_fit
+short_file:	run2.xtc
+title:	o6:MD:anta_rep1:run2
+additional_info:	anta_rep1
+filename:	o6_MD_anta_rep1_run2.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	opt_fit
+short_file:	run2.xtc
+title:	o6:IREDMODE:anta_rep1:run2
+additional_info:	anta_rep1
+filename:	o6_IREDMODE_anta_rep1_run2.data
+END:DATA
+DATA
+Type:	MD
+status:	opt_fit
+short_file:	run3.xtc
+title:	o6:MD:anta_rep2:run3
+additional_info:	anta_rep2
+filename:	o6_MD_anta_rep2_run3.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	opt_fit
+short_file:	run3.xtc
+title:	o6:IREDMODE:anta_rep2:run3
+additional_info:	anta_rep2
+filename:	o6_IREDMODE_anta_rep2_run3.data
+END:DATA
+DATA
+Type:	MD
+status:	opt_fit
+short_file:	run1.xtc
+title:	o6:MD:anta_rep3:run1
+additional_info:	anta_rep3
+filename:	o6_MD_anta_rep3_run1.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	opt_fit
+short_file:	run1.xtc
+title:	o6:IREDMODE:anta_rep3:run1
+additional_info:	anta_rep3
+filename:	o6_IREDMODE_anta_rep3_run1.data
+END:DATA
+DATA
+Type:	MD
+status:	opt_fit
+short_file:	run2.xtc
+title:	o6:MD:anta_rep4:run2
+additional_info:	anta_rep4
+filename:	o6_MD_anta_rep4_run2.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	opt_fit
+short_file:	run2.xtc
+title:	o6:IREDMODE:anta_rep4:run2
+additional_info:	anta_rep4
+filename:	o6_IREDMODE_anta_rep4_run2.data
+END:DATA
+DATA
+Type:	MD
+status:	opt_fit
+short_file:	run3.xtc
+title:	o6:MD:anta_rep5:run3
+additional_info:	anta_rep5
+filename:	o6_MD_anta_rep5_run3.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	opt_fit
+short_file:	run3.xtc
+title:	o6:IREDMODE:anta_rep5:run3
+additional_info:	anta_rep5
+filename:	o6_IREDMODE_anta_rep5_run3.data
+END:DATA
+DATA
+Type:	MD
+status:	opt_fit
+short_file:	run1.proc.xtc
+title:	o6:MD:Gi_rep0:run1.proc
+additional_info:	Gi_rep0
+filename:	o6_MD_Gi_rep0_run1_proc.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	opt_fit
+short_file:	run1.proc.xtc
+title:	o6:IREDMODE:Gi_rep0:run1.proc
+additional_info:	Gi_rep0
+filename:	o6_IREDMODE_Gi_rep0_run1_proc.data
+END:DATA
+DATA
+Type:	MD
+status:	opt_fit
+short_file:	run2.proc.xtc
+title:	o6:MD:Gi_rep1:run2.proc
+additional_info:	Gi_rep1
+filename:	o6_MD_Gi_rep1_run2_proc.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	opt_fit
+short_file:	run2.proc.xtc
+title:	o6:IREDMODE:Gi_rep1:run2.proc
+additional_info:	Gi_rep1
+filename:	o6_IREDMODE_Gi_rep1_run2_proc.data
+END:DATA
+DATA
+Type:	MD
+status:	opt_fit
+short_file:	run3.proc.xtc
+title:	o6:MD:Gi_rep2:run3.proc
+additional_info:	Gi_rep2
+filename:	o6_MD_Gi_rep2_run3_proc.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	opt_fit
+short_file:	run3.proc.xtc
+title:	o6:IREDMODE:Gi_rep2:run3.proc
+additional_info:	Gi_rep2
+filename:	o6_IREDMODE_Gi_rep2_run3_proc.data
+END:DATA
+DATA
+Type:	iREDbond
+status:	opt_fit
+short_file:	apo1.xtc
+title:	o6:IREDBOND:apo_rep0:apo1
+additional_info:	apo_rep0
+filename:	o6_IREDBOND_apo_rep0_apo1.data
+END:DATA
+DATA
+Type:	iREDbond
+status:	opt_fit
+short_file:	apo2.xtc
+title:	o6:IREDBOND:apo_rep1:apo2
+additional_info:	apo_rep1
+filename:	o6_IREDBOND_apo_rep1_apo2.data
+END:DATA
+DATA
+Type:	iREDbond
+status:	opt_fit
+short_file:	apo3.xtc
+title:	o6:IREDBOND:apo_rep2:apo3
+additional_info:	apo_rep2
+filename:	o6_IREDBOND_apo_rep2_apo3.data
+END:DATA
+DATA
+Type:	iREDbond
+status:	opt_fit
+short_file:	apo1.xtc
+title:	o6:IREDBOND:apo_rep3:apo1
+additional_info:	apo_rep3
+filename:	o6_IREDBOND_apo_rep3_apo1.data
+END:DATA
+DATA
+Type:	iREDbond
+status:	opt_fit
+short_file:	apo2.xtc
+title:	o6:IREDBOND:apo_rep4:apo2
+additional_info:	apo_rep4
+filename:	o6_IREDBOND_apo_rep4_apo2.data
+END:DATA
+DATA
+Type:	iREDbond
+status:	opt_fit
+short_file:	run1.proc.xtc
+title:	o6:IREDBOND:NPY_rep0:run1.proc
+additional_info:	NPY_rep0
+filename:	o6_IREDBOND_NPY_rep0_run1_proc.data
+END:DATA
+DATA
+Type:	iREDbond
+status:	opt_fit
+short_file:	run2.proc.xtc
+title:	o6:IREDBOND:NPY_rep1:run2.proc
+additional_info:	NPY_rep1
+filename:	o6_IREDBOND_NPY_rep1_run2_proc.data
+END:DATA
+DATA
+Type:	iREDbond
+status:	opt_fit
+short_file:	run3.proc.xtc
+title:	o6:IREDBOND:NPY_rep2:run3.proc
+additional_info:	NPY_rep2
+filename:	o6_IREDBOND_NPY_rep2_run3_proc.data
+END:DATA
+DATA
+Type:	iREDbond
+status:	opt_fit
+short_file:	run1.xtc
+title:	o6:IREDBOND:anta_rep0:run1
+additional_info:	anta_rep0
+filename:	o6_IREDBOND_anta_rep0_run1.data
+END:DATA
+DATA
+Type:	iREDbond
+status:	opt_fit
+short_file:	run2.xtc
+title:	o6:IREDBOND:anta_rep1:run2
+additional_info:	anta_rep1
+filename:	o6_IREDBOND_anta_rep1_run2.data
+END:DATA
+DATA
+Type:	iREDbond
+status:	opt_fit
+short_file:	run3.xtc
+title:	o6:IREDBOND:anta_rep2:run3
+additional_info:	anta_rep2
+filename:	o6_IREDBOND_anta_rep2_run3.data
+END:DATA
+DATA
+Type:	iREDbond
+status:	opt_fit
+short_file:	run1.xtc
+title:	o6:IREDBOND:anta_rep3:run1
+additional_info:	anta_rep3
+filename:	o6_IREDBOND_anta_rep3_run1.data
+END:DATA
+DATA
+Type:	iREDbond
+status:	opt_fit
+short_file:	run2.xtc
+title:	o6:IREDBOND:anta_rep4:run2
+additional_info:	anta_rep4
+filename:	o6_IREDBOND_anta_rep4_run2.data
+END:DATA
+DATA
+Type:	iREDbond
+status:	opt_fit
+short_file:	run3.xtc
+title:	o6:IREDBOND:anta_rep5:run3
+additional_info:	anta_rep5
+filename:	o6_IREDBOND_anta_rep5_run3.data
+END:DATA
+DATA
+Type:	iREDbond
+status:	opt_fit
+short_file:	run1.proc.xtc
+title:	o6:IREDBOND:Gi_rep0:run1.proc
+additional_info:	Gi_rep0
+filename:	o6_IREDBOND_Gi_rep0_run1_proc.data
+END:DATA
+DATA
+Type:	iREDbond
+status:	opt_fit
+short_file:	run2.proc.xtc
+title:	o6:IREDBOND:Gi_rep1:run2.proc
+additional_info:	Gi_rep1
+filename:	o6_IREDBOND_Gi_rep1_run2_proc.data
+END:DATA
+DATA
+Type:	iREDbond
+status:	opt_fit
+short_file:	run3.proc.xtc
+title:	o6:IREDBOND:Gi_rep2:run3.proc
+additional_info:	Gi_rep2
+filename:	o6_IREDBOND_Gi_rep2_run3_proc.data
+END:DATA
+DATA
+Type:	MD
+status:	opt_fit
+short_file:	apo1.xtc
+title:	o6:MD:AvOb_apo:apo1
+additional_info:	AvOb_apo
+filename:	o6_MD_apo_rep0_apo11.data
+END:DATA
+DATA
+Type:	MD
+status:	opt_fit
+short_file:	run1.proc.xtc
+title:	o6:MD:AvOb_NPY:run1.proc
+additional_info:	AvOb_NPY
+filename:	o6_MD_NPY_rep0_run1_proc1.data
+END:DATA
+DATA
+Type:	MD
+status:	opt_fit
+short_file:	run1.xtc
+title:	o6:MD:AvOb_anta:run1
+additional_info:	AvOb_anta
+filename:	o6_MD_anta_rep0_run11.data
+END:DATA
+DATA
+Type:	MD
+status:	opt_fit
+short_file:	run1.proc.xtc
+title:	o6:MD:AvOb_Gi:run1.proc
+additional_info:	AvOb_Gi
+filename:	o6_MD_Gi_rep0_run1_proc1.data
+END:DATA
+DATA
+Type:	iREDbond
+status:	opt_fit
+short_file:	apo1.xtc
+title:	o6:IREDBOND:AvOb_apo:apo1
+additional_info:	AvOb_apo
+filename:	o6_IREDBOND_apo_rep0_apo11.data
+END:DATA
+DATA
+Type:	iREDbond
+status:	opt_fit
+short_file:	run1.proc.xtc
+title:	o6:IREDBOND:AvOb_NPY:run1.proc
+additional_info:	AvOb_NPY
+filename:	o6_IREDBOND_NPY_rep0_run1_proc1.data
+END:DATA
+DATA
+Type:	iREDbond
+status:	opt_fit
+short_file:	run1.xtc
+title:	o6:IREDBOND:AvOb_anta:run1
+additional_info:	AvOb_anta
+filename:	o6_IREDBOND_anta_rep0_run11.data
+END:DATA
+DATA
+Type:	iREDbond
+status:	opt_fit
+short_file:	run1.proc.xtc
+title:	o6:IREDBOND:AvOb_Gi:run1.proc
+additional_info:	AvOb_Gi
+filename:	o6_IREDBOND_Gi_rep0_run1_proc1.data
+END:DATA

@@ -1,0 +1,168 @@
+DATA
+Type:	MD
+status:	no_opt
+short_file:	run3.xtc
+title:	n10:MD:BB_state1_rep0:run3
+additional_info:	BB_state1_rep0
+filename:	n10_MD_BB_state1_rep0_run3.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	no_opt
+short_file:	run3.xtc
+title:	n10:IREDMODE:BB_state1_rep0:run3
+additional_info:	BB_state1_rep0
+filename:	n10_IREDMODE_BB_state1_rep0_run3.data
+END:DATA
+DATA
+Type:	MD
+status:	no_opt
+short_file:	run1.xtc
+title:	n10:MD:BB_state2_rep0:run1
+additional_info:	BB_state2_rep0
+filename:	n10_MD_BB_state2_rep0_run1.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	no_opt
+short_file:	run1.xtc
+title:	n10:IREDMODE:BB_state2_rep0:run1
+additional_info:	BB_state2_rep0
+filename:	n10_IREDMODE_BB_state2_rep0_run1.data
+END:DATA
+DATA
+Type:	MD
+status:	no_opt
+short_file:	run2.xtc
+title:	n10:MD:BB_state5_rep0:run2
+additional_info:	BB_state5_rep0
+filename:	n10_MD_BB_state5_rep0_run2.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	no_opt
+short_file:	run2.xtc
+title:	n10:IREDMODE:BB_state5_rep0:run2
+additional_info:	BB_state5_rep0
+filename:	n10_IREDMODE_BB_state5_rep0_run2.data
+END:DATA
+DATA
+Type:	MD
+status:	proc
+short_file:	run3.xtc
+title:	p6:MD:BB_state1_rep0:run3
+additional_info:	BB_state1_rep0
+filename:	p6_MD_BB_state1_rep0_run3.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	proc
+short_file:	run3.xtc
+title:	p6:IREDMODE:BB_state1_rep0:run3
+additional_info:	BB_state1_rep0
+filename:	p6_IREDMODE_BB_state1_rep0_run3.data
+END:DATA
+DATA
+Type:	MD
+status:	proc
+short_file:	run1.xtc
+title:	p6:MD:BB_state2_rep0:run1
+additional_info:	BB_state2_rep0
+filename:	p6_MD_BB_state2_rep0_run1.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	proc
+short_file:	run1.xtc
+title:	p6:IREDMODE:BB_state2_rep0:run1
+additional_info:	BB_state2_rep0
+filename:	p6_IREDMODE_BB_state2_rep0_run1.data
+END:DATA
+DATA
+Type:	MD
+status:	proc
+short_file:	run2.xtc
+title:	p6:MD:BB_state5_rep0:run2
+additional_info:	BB_state5_rep0
+filename:	p6_MD_BB_state5_rep0_run2.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	proc
+short_file:	run2.xtc
+title:	p6:IREDMODE:BB_state5_rep0:run2
+additional_info:	BB_state5_rep0
+filename:	p6_IREDMODE_BB_state5_rep0_run2.data
+END:DATA
+DATA
+Type:	MD
+status:	opt_fit
+short_file:	run3.xtc
+title:	o6:MD:BB_state1_rep0:run3
+additional_info:	BB_state1_rep0
+filename:	o6_MD_BB_state1_rep0_run3.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	opt_fit
+short_file:	run3.xtc
+title:	o6:IREDMODE:BB_state1_rep0:run3
+additional_info:	BB_state1_rep0
+filename:	o6_IREDMODE_BB_state1_rep0_run3.data
+END:DATA
+DATA
+Type:	MD
+status:	opt_fit
+short_file:	run1.xtc
+title:	o6:MD:BB_state2_rep0:run1
+additional_info:	BB_state2_rep0
+filename:	o6_MD_BB_state2_rep0_run1.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	opt_fit
+short_file:	run1.xtc
+title:	o6:IREDMODE:BB_state2_rep0:run1
+additional_info:	BB_state2_rep0
+filename:	o6_IREDMODE_BB_state2_rep0_run1.data
+END:DATA
+DATA
+Type:	MD
+status:	opt_fit
+short_file:	run2.xtc
+title:	o6:MD:BB_state5_rep0:run2
+additional_info:	BB_state5_rep0
+filename:	o6_MD_BB_state5_rep0_run2.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	opt_fit
+short_file:	run2.xtc
+title:	o6:IREDMODE:BB_state5_rep0:run2
+additional_info:	BB_state5_rep0
+filename:	o6_IREDMODE_BB_state5_rep0_run2.data
+END:DATA
+DATA
+Type:	iREDbond
+status:	opt_fit
+short_file:	run3.xtc
+title:	o6:IREDBOND:BB_state1_rep0:run3
+additional_info:	BB_state1_rep0
+filename:	o6_IREDBOND_BB_state1_rep0_run3.data
+END:DATA
+DATA
+Type:	iREDbond
+status:	opt_fit
+short_file:	run1.xtc
+title:	o6:IREDBOND:BB_state2_rep0:run1
+additional_info:	BB_state2_rep0
+filename:	o6_IREDBOND_BB_state2_rep0_run1.data
+END:DATA
+DATA
+Type:	iREDbond
+status:	opt_fit
+short_file:	run2.xtc
+title:	o6:IREDBOND:BB_state5_rep0:run2
+additional_info:	BB_state5_rep0
+filename:	o6_IREDBOND_BB_state5_rep0_run2.data
+END:DATA

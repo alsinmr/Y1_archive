@@ -1,0 +1,440 @@
+DATA
+Type:	MD
+status:	no_opt
+short_file:	apo2.xtc
+title:	n10:MD:W276_state1_rep0:apo2
+additional_info:	W276_state1_rep0
+filename:	n10_MD_W276_state1_rep0_apo2.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	no_opt
+short_file:	apo2.xtc
+title:	n10:IREDMODE:W276_state1_rep0:apo2
+additional_info:	W276_state1_rep0
+filename:	n10_IREDMODE_W276_state1_rep0_apo2.data
+END:DATA
+DATA
+Type:	MD
+status:	no_opt
+short_file:	apo3.xtc
+title:	n10:MD:W276_state1_rep1:apo3
+additional_info:	W276_state1_rep1
+filename:	n10_MD_W276_state1_rep1_apo3.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	no_opt
+short_file:	apo3.xtc
+title:	n10:IREDMODE:W276_state1_rep1:apo3
+additional_info:	W276_state1_rep1
+filename:	n10_IREDMODE_W276_state1_rep1_apo3.data
+END:DATA
+DATA
+Type:	MD
+status:	no_opt
+short_file:	apo3.xtc
+title:	n10:MD:W276_state1_rep2:apo3
+additional_info:	W276_state1_rep2
+filename:	n10_MD_W276_state1_rep2_apo3.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	no_opt
+short_file:	apo3.xtc
+title:	n10:IREDMODE:W276_state1_rep2:apo3
+additional_info:	W276_state1_rep2
+filename:	n10_IREDMODE_W276_state1_rep2_apo3.data
+END:DATA
+DATA
+Type:	MD
+status:	no_opt
+short_file:	apo1.xtc
+title:	n10:MD:W276_state2_rep0:apo1
+additional_info:	W276_state2_rep0
+filename:	n10_MD_W276_state2_rep0_apo1.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	no_opt
+short_file:	apo1.xtc
+title:	n10:IREDMODE:W276_state2_rep0:apo1
+additional_info:	W276_state2_rep0
+filename:	n10_IREDMODE_W276_state2_rep0_apo1.data
+END:DATA
+DATA
+Type:	MD
+status:	no_opt
+short_file:	apo1.xtc
+title:	n10:MD:W276_state2_rep1:apo1
+additional_info:	W276_state2_rep1
+filename:	n10_MD_W276_state2_rep1_apo1.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	no_opt
+short_file:	apo1.xtc
+title:	n10:IREDMODE:W276_state2_rep1:apo1
+additional_info:	W276_state2_rep1
+filename:	n10_IREDMODE_W276_state2_rep1_apo1.data
+END:DATA
+DATA
+Type:	MD
+status:	no_opt
+short_file:	apo2.xtc
+title:	n10:MD:W276_state2_rep2:apo2
+additional_info:	W276_state2_rep2
+filename:	n10_MD_W276_state2_rep2_apo2.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	no_opt
+short_file:	apo2.xtc
+title:	n10:IREDMODE:W276_state2_rep2:apo2
+additional_info:	W276_state2_rep2
+filename:	n10_IREDMODE_W276_state2_rep2_apo2.data
+END:DATA
+DATA
+Type:	MD
+status:	no_opt
+short_file:	apo1.xtc
+title:	n10:MD:W276_state3_rep0:apo1
+additional_info:	W276_state3_rep0
+filename:	n10_MD_W276_state3_rep0_apo1.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	no_opt
+short_file:	apo1.xtc
+title:	n10:IREDMODE:W276_state3_rep0:apo1
+additional_info:	W276_state3_rep0
+filename:	n10_IREDMODE_W276_state3_rep0_apo1.data
+END:DATA
+DATA
+Type:	MD
+status:	proc
+short_file:	apo2.xtc
+title:	p6:MD:W276_state1_rep0:apo2
+additional_info:	W276_state1_rep0
+filename:	p6_MD_W276_state1_rep0_apo2.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	proc
+short_file:	apo2.xtc
+title:	p6:IREDMODE:W276_state1_rep0:apo2
+additional_info:	W276_state1_rep0
+filename:	p6_IREDMODE_W276_state1_rep0_apo2.data
+END:DATA
+DATA
+Type:	MD
+status:	proc
+short_file:	apo3.xtc
+title:	p6:MD:W276_state1_rep1:apo3
+additional_info:	W276_state1_rep1
+filename:	p6_MD_W276_state1_rep1_apo3.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	proc
+short_file:	apo3.xtc
+title:	p6:IREDMODE:W276_state1_rep1:apo3
+additional_info:	W276_state1_rep1
+filename:	p6_IREDMODE_W276_state1_rep1_apo3.data
+END:DATA
+DATA
+Type:	MD
+status:	proc
+short_file:	apo3.xtc
+title:	p6:MD:W276_state1_rep2:apo3
+additional_info:	W276_state1_rep2
+filename:	p6_MD_W276_state1_rep2_apo3.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	proc
+short_file:	apo3.xtc
+title:	p6:IREDMODE:W276_state1_rep2:apo3
+additional_info:	W276_state1_rep2
+filename:	p6_IREDMODE_W276_state1_rep2_apo3.data
+END:DATA
+DATA
+Type:	MD
+status:	proc
+short_file:	apo1.xtc
+title:	p6:MD:W276_state2_rep0:apo1
+additional_info:	W276_state2_rep0
+filename:	p6_MD_W276_state2_rep0_apo1.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	proc
+short_file:	apo1.xtc
+title:	p6:IREDMODE:W276_state2_rep0:apo1
+additional_info:	W276_state2_rep0
+filename:	p6_IREDMODE_W276_state2_rep0_apo1.data
+END:DATA
+DATA
+Type:	MD
+status:	proc
+short_file:	apo1.xtc
+title:	p6:MD:W276_state2_rep1:apo1
+additional_info:	W276_state2_rep1
+filename:	p6_MD_W276_state2_rep1_apo1.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	proc
+short_file:	apo1.xtc
+title:	p6:IREDMODE:W276_state2_rep1:apo1
+additional_info:	W276_state2_rep1
+filename:	p6_IREDMODE_W276_state2_rep1_apo1.data
+END:DATA
+DATA
+Type:	MD
+status:	proc
+short_file:	apo2.xtc
+title:	p6:MD:W276_state2_rep2:apo2
+additional_info:	W276_state2_rep2
+filename:	p6_MD_W276_state2_rep2_apo2.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	proc
+short_file:	apo2.xtc
+title:	p6:IREDMODE:W276_state2_rep2:apo2
+additional_info:	W276_state2_rep2
+filename:	p6_IREDMODE_W276_state2_rep2_apo2.data
+END:DATA
+DATA
+Type:	MD
+status:	proc
+short_file:	apo1.xtc
+title:	p6:MD:W276_state3_rep0:apo1
+additional_info:	W276_state3_rep0
+filename:	p6_MD_W276_state3_rep0_apo1.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	proc
+short_file:	apo1.xtc
+title:	p6:IREDMODE:W276_state3_rep0:apo1
+additional_info:	W276_state3_rep0
+filename:	p6_IREDMODE_W276_state3_rep0_apo1.data
+END:DATA
+DATA
+Type:	MD
+status:	opt_fit
+short_file:	apo2.xtc
+title:	o6:MD:W276_state1_rep0:apo2
+additional_info:	W276_state1_rep0
+filename:	o6_MD_W276_state1_rep0_apo2.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	opt_fit
+short_file:	apo2.xtc
+title:	o6:IREDMODE:W276_state1_rep0:apo2
+additional_info:	W276_state1_rep0
+filename:	o6_IREDMODE_W276_state1_rep0_apo2.data
+END:DATA
+DATA
+Type:	MD
+status:	opt_fit
+short_file:	apo3.xtc
+title:	o6:MD:W276_state1_rep1:apo3
+additional_info:	W276_state1_rep1
+filename:	o6_MD_W276_state1_rep1_apo3.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	opt_fit
+short_file:	apo3.xtc
+title:	o6:IREDMODE:W276_state1_rep1:apo3
+additional_info:	W276_state1_rep1
+filename:	o6_IREDMODE_W276_state1_rep1_apo3.data
+END:DATA
+DATA
+Type:	MD
+status:	opt_fit
+short_file:	apo3.xtc
+title:	o6:MD:W276_state1_rep2:apo3
+additional_info:	W276_state1_rep2
+filename:	o6_MD_W276_state1_rep2_apo3.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	opt_fit
+short_file:	apo3.xtc
+title:	o6:IREDMODE:W276_state1_rep2:apo3
+additional_info:	W276_state1_rep2
+filename:	o6_IREDMODE_W276_state1_rep2_apo3.data
+END:DATA
+DATA
+Type:	MD
+status:	opt_fit
+short_file:	apo1.xtc
+title:	o6:MD:W276_state2_rep0:apo1
+additional_info:	W276_state2_rep0
+filename:	o6_MD_W276_state2_rep0_apo1.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	opt_fit
+short_file:	apo1.xtc
+title:	o6:IREDMODE:W276_state2_rep0:apo1
+additional_info:	W276_state2_rep0
+filename:	o6_IREDMODE_W276_state2_rep0_apo1.data
+END:DATA
+DATA
+Type:	MD
+status:	opt_fit
+short_file:	apo1.xtc
+title:	o6:MD:W276_state2_rep1:apo1
+additional_info:	W276_state2_rep1
+filename:	o6_MD_W276_state2_rep1_apo1.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	opt_fit
+short_file:	apo1.xtc
+title:	o6:IREDMODE:W276_state2_rep1:apo1
+additional_info:	W276_state2_rep1
+filename:	o6_IREDMODE_W276_state2_rep1_apo1.data
+END:DATA
+DATA
+Type:	MD
+status:	opt_fit
+short_file:	apo2.xtc
+title:	o6:MD:W276_state2_rep2:apo2
+additional_info:	W276_state2_rep2
+filename:	o6_MD_W276_state2_rep2_apo2.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	opt_fit
+short_file:	apo2.xtc
+title:	o6:IREDMODE:W276_state2_rep2:apo2
+additional_info:	W276_state2_rep2
+filename:	o6_IREDMODE_W276_state2_rep2_apo2.data
+END:DATA
+DATA
+Type:	MD
+status:	opt_fit
+short_file:	apo1.xtc
+title:	o6:MD:W276_state3_rep0:apo1
+additional_info:	W276_state3_rep0
+filename:	o6_MD_W276_state3_rep0_apo1.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	opt_fit
+short_file:	apo1.xtc
+title:	o6:IREDMODE:W276_state3_rep0:apo1
+additional_info:	W276_state3_rep0
+filename:	o6_IREDMODE_W276_state3_rep0_apo1.data
+END:DATA
+DATA
+Type:	iREDbond
+status:	opt_fit
+short_file:	apo2.xtc
+title:	o6:IREDBOND:W276_state1_rep0:apo2
+additional_info:	W276_state1_rep0
+filename:	o6_IREDBOND_W276_state1_rep0_apo2.data
+END:DATA
+DATA
+Type:	iREDbond
+status:	opt_fit
+short_file:	apo3.xtc
+title:	o6:IREDBOND:W276_state1_rep1:apo3
+additional_info:	W276_state1_rep1
+filename:	o6_IREDBOND_W276_state1_rep1_apo3.data
+END:DATA
+DATA
+Type:	iREDbond
+status:	opt_fit
+short_file:	apo3.xtc
+title:	o6:IREDBOND:W276_state1_rep2:apo3
+additional_info:	W276_state1_rep2
+filename:	o6_IREDBOND_W276_state1_rep2_apo3.data
+END:DATA
+DATA
+Type:	iREDbond
+status:	opt_fit
+short_file:	apo1.xtc
+title:	o6:IREDBOND:W276_state2_rep0:apo1
+additional_info:	W276_state2_rep0
+filename:	o6_IREDBOND_W276_state2_rep0_apo1.data
+END:DATA
+DATA
+Type:	iREDbond
+status:	opt_fit
+short_file:	apo1.xtc
+title:	o6:IREDBOND:W276_state2_rep1:apo1
+additional_info:	W276_state2_rep1
+filename:	o6_IREDBOND_W276_state2_rep1_apo1.data
+END:DATA
+DATA
+Type:	iREDbond
+status:	opt_fit
+short_file:	apo2.xtc
+title:	o6:IREDBOND:W276_state2_rep2:apo2
+additional_info:	W276_state2_rep2
+filename:	o6_IREDBOND_W276_state2_rep2_apo2.data
+END:DATA
+DATA
+Type:	iREDbond
+status:	opt_fit
+short_file:	apo1.xtc
+title:	o6:IREDBOND:W276_state3_rep0:apo1
+additional_info:	W276_state3_rep0
+filename:	o6_IREDBOND_W276_state3_rep0_apo1.data
+END:DATA
+DATA
+Type:	MD
+status:	opt_fit
+short_file:	apo2.xtc
+title:	o6:MD:AvOb_W276_state1:apo2
+additional_info:	AvOb_W276_state1
+filename:	o6_MD_W276_state1_rep0_apo21.data
+END:DATA
+DATA
+Type:	MD
+status:	opt_fit
+short_file:	apo1.xtc
+title:	o6:MD:AvOb_W276_state2:apo1
+additional_info:	AvOb_W276_state2
+filename:	o6_MD_W276_state2_rep0_apo11.data
+END:DATA
+DATA
+Type:	MD
+status:	opt_fit
+short_file:	apo1.xtc
+title:	o6:MD:AvOb_W276_state3:apo1
+additional_info:	AvOb_W276_state3
+filename:	o6_MD_W276_state3_rep0_apo11.data
+END:DATA
+DATA
+Type:	iREDbond
+status:	opt_fit
+short_file:	apo2.xtc
+title:	o6:IREDBOND:AvOb_W276_state1:apo2
+additional_info:	AvOb_W276_state1
+filename:	o6_IREDBOND_W276_state1_rep0_apo21.data
+END:DATA
+DATA
+Type:	iREDbond
+status:	opt_fit
+short_file:	apo1.xtc
+title:	o6:IREDBOND:AvOb_W276_state2:apo1
+additional_info:	AvOb_W276_state2
+filename:	o6_IREDBOND_W276_state2_rep0_apo11.data
+END:DATA
+DATA
+Type:	iREDbond
+status:	opt_fit
+short_file:	apo1.xtc
+title:	o6:IREDBOND:AvOb_W276_state3:apo1
+additional_info:	AvOb_W276_state3
+filename:	o6_IREDBOND_W276_state3_rep0_apo11.data
+END:DATA

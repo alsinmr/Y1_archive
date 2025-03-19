@@ -1,0 +1,112 @@
+DATA
+Type:	MD
+status:	no_opt
+short_file:	reduced_protein_1ns_center_helices_core_run1.xtc
+title:	n10:MD:state0:reduced_protein_1ns_center_helices_core_run1
+additional_info:	state0
+filename:	n10_MD_state0_reduced_protein_1ns_center_helices_core_run1.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	no_opt
+short_file:	reduced_protein_1ns_center_helices_core_run1.xtc
+title:	n10:IREDMODE:state0:reduced_protein_1ns_center_helices_core_run1
+additional_info:	state0
+filename:	n10_IREDMODE_state0_reduced_protein_1ns_center_helices_core_run1.data
+END:DATA
+DATA
+Type:	MD
+status:	no_opt
+short_file:	reduced_protein_1ns_center_helices_core_run1.xtc
+title:	n10:MD:state1:reduced_protein_1ns_center_helices_core_run1
+additional_info:	state1
+filename:	n10_MD_state1_reduced_protein_1ns_center_helices_core_run1.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	no_opt
+short_file:	reduced_protein_1ns_center_helices_core_run1.xtc
+title:	n10:IREDMODE:state1:reduced_protein_1ns_center_helices_core_run1
+additional_info:	state1
+filename:	n10_IREDMODE_state1_reduced_protein_1ns_center_helices_core_run1.data
+END:DATA
+DATA
+Type:	MD
+status:	proc
+short_file:	reduced_protein_1ns_center_helices_core_run1.xtc
+title:	p6:MD:state0:reduced_protein_1ns_center_helices_core_run1
+additional_info:	state0
+filename:	p6_MD_state0_reduced_protein_1ns_center_helices_core_run1.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	proc
+short_file:	reduced_protein_1ns_center_helices_core_run1.xtc
+title:	p6:IREDMODE:state0:reduced_protein_1ns_center_helices_core_run1
+additional_info:	state0
+filename:	p6_IREDMODE_state0_reduced_protein_1ns_center_helices_core_run1.data
+END:DATA
+DATA
+Type:	MD
+status:	proc
+short_file:	reduced_protein_1ns_center_helices_core_run1.xtc
+title:	p6:MD:state1:reduced_protein_1ns_center_helices_core_run1
+additional_info:	state1
+filename:	p6_MD_state1_reduced_protein_1ns_center_helices_core_run1.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	proc
+short_file:	reduced_protein_1ns_center_helices_core_run1.xtc
+title:	p6:IREDMODE:state1:reduced_protein_1ns_center_helices_core_run1
+additional_info:	state1
+filename:	p6_IREDMODE_state1_reduced_protein_1ns_center_helices_core_run1.data
+END:DATA
+DATA
+Type:	MD
+status:	opt_fit
+short_file:	reduced_protein_1ns_center_helices_core_run1.xtc
+title:	o6:MD:state0:reduced_protein_1ns_center_helices_core_run1
+additional_info:	state0
+filename:	o6_MD_state0_reduced_protein_1ns_center_helices_core_run1.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	opt_fit
+short_file:	reduced_protein_1ns_center_helices_core_run1.xtc
+title:	o6:IREDMODE:state0:reduced_protein_1ns_center_helices_core_run1
+additional_info:	state0
+filename:	o6_IREDMODE_state0_reduced_protein_1ns_center_helices_core_run1.data
+END:DATA
+DATA
+Type:	MD
+status:	opt_fit
+short_file:	reduced_protein_1ns_center_helices_core_run1.xtc
+title:	o6:MD:state1:reduced_protein_1ns_center_helices_core_run1
+additional_info:	state1
+filename:	o6_MD_state1_reduced_protein_1ns_center_helices_core_run1.data
+END:DATA
+DATA
+Type:	iREDmode
+status:	opt_fit
+short_file:	reduced_protein_1ns_center_helices_core_run1.xtc
+title:	o6:IREDMODE:state1:reduced_protein_1ns_center_helices_core_run1
+additional_info:	state1
+filename:	o6_IREDMODE_state1_reduced_protein_1ns_center_helices_core_run1.data
+END:DATA
+DATA
+Type:	iREDbond
+status:	opt_fit
+short_file:	reduced_protein_1ns_center_helices_core_run1.xtc
+title:	o6:IREDBOND:state0:reduced_protein_1ns_center_helices_core_run1
+additional_info:	state0
+filename:	o6_IREDBOND_state0_reduced_protein_1ns_center_helices_core_run1.data
+END:DATA
+DATA
+Type:	iREDbond
+status:	opt_fit
+short_file:	reduced_protein_1ns_center_helices_core_run1.xtc
+title:	o6:IREDBOND:state1:reduced_protein_1ns_center_helices_core_run1
+additional_info:	state1
+filename:	o6_IREDBOND_state1_reduced_protein_1ns_center_helices_core_run1.data
+END:DATA
